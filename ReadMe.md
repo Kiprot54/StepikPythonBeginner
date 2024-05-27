@@ -11,3 +11,7 @@
 ### *2.3. Параметры sep и end*
 
 *Задания:*  [**2.3.1.**](problems/problem2.3.1.I_like_Python.md), [**2.3.2.**](problems/problem2.3.2.Say_hello.md), [**2.3.3.**](problems/problem2.3.3.Custom_separator.md)
+
+### *2.4. Целочисленная арифметика. Часть 1*
+
+*Задания:*  [**2.4.1.**](problems/problem2.4.1.Three_consecutive_numbers.md), [**2.4.2.**](problems/problem2.4.2.The_sum_of_three_numbers.md), [**2.4.3.**](problems/problem2.4.3.Cube.md), [**2.4.4.**](problems/problem2.4.4.Function_value.md), [**2.4.5.**](problems/problem2.4.5.Next_and_previous.md) <!-- [**2.4.6.**](problems/problem2.4.6.Say_hello.md), [**2.4.7.**](problems/problem2.4.7.Custom_separator.md), [**2.4.8.**](problems/problem2.4.8.Say_hello.md), [**2.4.9.**](problems/problem2.4.9.Custom_separator.md) -->
