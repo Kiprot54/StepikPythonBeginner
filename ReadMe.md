@@ -4,14 +4,24 @@
 
 ## 2. Ввод-вывод данных
 
-### *2.2. Команды print и input*
+### 2.2. *Команды print и input*
 
-*Задания:* [**2.2.1.**](problems/problem2.2.1.Hello_world.md), [**2.2.2.**](problems/problem2.2.2.A_happy_sequence_1.md), [**2.2.3.**](problems/problem2.2.3.A_happy_sequence_2.md), [**2.2.4.**](problems/problem2.2.4.The_star_triangle.md), [**2.2.5.**](problems/problem2.2.5.Greeting.md), [**2.2.6.**](problems/problem2.2.6.Favorite_team.md), [**2.2.7.**](problems/problem2.2.7.Repeat_after_me.md) , [**2.2.8.**](problems/problem2.2.8.Repeat_after_me_2.md) 
+| <!-- -->                                                                   | <!-- -->                                                                     | <!-- -->                                                                     |
+|----------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [**2.2.1.** Hello world](problems/problem2.2.1.Hello_world.md)             | [**2.2.2.** A happy sequence 1](problems/problem2.2.2.A_happy_sequence_1.md) | [**2.2.3.** A happy sequence 2](problems/problem2.2.3.A_happy_sequence_2.md) |
+| [**2.2.4.** The star triangle](problems/problem2.2.4.The_star_triangle.md) | [**2.2.5.** Greeting](problems/problem2.2.5.Greeting.md)                     | [**2.2.6.** Favorite team](problems/problem2.2.6.Favorite_team.md)           |
+| [**2.2.7.** Repeat after me](problems/problem2.2.7.Repeat_after_me.md)     | [**2.2.8.** Repeat after me 2](problems/problem2.2.8.Repeat after me 2.md)   |                                                                              | 
 
-### *2.3. Параметры sep и end*
+### 2.3. *Параметры sep и end*
 
-*Задания:*  [**2.3.1.**](problems/problem2.3.1.I_like_Python.md), [**2.3.2.**](problems/problem2.3.2.Say_hello.md), [**2.3.3.**](problems/problem2.3.3.Custom_separator.md)
+| <!-- -->                                                           | <!-- -->                                                   | <!-- -->                                                                 |
+|--------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------|
+| [**2.3.1.** I like Python](problems/problem2.3.1.I_like_Python.md) | [**2.3.2.** Say hello](problems/problem2.3.2.Say_hello.md) | [**2.3.3.** Custom separator](problems/problem2.3.3.Custom_separator.md) |
 
-### *2.4. Целочисленная арифметика. Часть 1*
+### 2.4. *Целочисленная арифметика. Часть 1*
 
-*Задания:*  [**2.4.1.**](problems/problem2.4.1.Three_consecutive_numbers.md), [**2.4.2.**](problems/problem2.4.2.The_sum_of_three_numbers.md), [**2.4.3.**](problems/problem2.4.3.Cube.md), [**2.4.4.**](problems/problem2.4.4.Function_value.md), [**2.4.5.**](problems/problem2.4.5.Next_and_previous.md) [**2.4.6.**](problems/problem2.4.6.Purchase_price.md), [**2.4.7.**](problems/problem2.4.7.Arithmetic_operations.md), [**2.4.8.**](problems/problem2.4.8.Arithmetic_progression.md), [**2.4.9.**](problems/problem2.4.9.Divide_and_conquer.md)
+| <!-- -->                                                                                   | <!-- -->                                                                                 | <!-- -->                                                                     |
+|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [**2.4.1.** Three consecutive numbers](problems/problem2.4.1.Three_consecutive_numbers.md) | [**2.4.2.** The sum of three numbers](problems/problem2.4.2.The_sum_of_three_numbers.md) | [**2.4.3.** Cube](problems/problem2.4.3.Cube.md)                             |
+| [**2.4.4.** Function value](problems/problem2.4.4.Function_value.md)                       | [**2.4.5.** Next and previous](problems/problem2.4.5.Next_and_previous.md)               | [**2.4.6.** Purchase price](problems/problem2.4.6.Purchase_price.md)         |
+| [**2.4.7.** Arithmetic operations](problems/problem2.4.7.Arithmetic_operations.md)         | [**2.4.8.** Arithmetic progression](problems/problem2.4.8.Arithmetic_progression.md)     | [**2.4.9.** Divide and conquer](problems/problem2.4.9.Divide_and_conquer.md) |
