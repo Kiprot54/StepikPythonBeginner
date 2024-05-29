@@ -28,7 +28,7 @@
 
 ### 2.5. *Целочисленная арифметика. Часть 2*
 
-| <!-- -->                                                                             | <!-- -->                                                                                               | <!-- -->                                                                     |
-|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [**2.5.1.** Geometric progression](problems/problem2.5.1.Geometric_progression.md)   | [**2.5.2.** Distance in meters](problems/problem2.5.2.Distance_in_meters)                              | [**2.5.3.** Mandarins](problems/problem2.5.3.Mandarins.md)                   |
-| [**2.5.4.** The very inevitability](problems/problem2.5.4.The_very_inevitability.md) | [**2.5.5.** Recalculating the time interval](problems/problem2.5.5.Recalculating_the_time_interval.md) | [**2.5.6.** Compartment number](problems/problem2.5.6.Compartment_number.md) |
+| <!-- -->                                                                             | <!-- -->                                                                                               | <!-- -->                                                                      |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [**2.5.1.** Geometric progression](problems/problem2.5.1.Geometric_progression.md)   | [**2.5.2.** Distance in meters](problems/problem2.5.2.Distance_in_meters)                              | [**2.5.3.** Mandarins](problems/problem2.5.3.Mandarins.md)                    |
+| [**2.5.4.** The very inevitability](problems/problem2.5.4.The_very_inevitability.md) | [**2.5.5.** Recalculating the time interval](problems/problem2.5.5.Recalculating_the_time_interval.md) | [**2.5.6.** Compartment number*](problems/problem2.5.6.Compartment_number.md) |
