@@ -1,3 +1,5 @@
+print('Расстояние в метрах')
+print()
 while True:
     cm = input('Введи количество сантиметров: ')
     if cm.isdigit():
