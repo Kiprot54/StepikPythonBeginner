@@ -35,3 +35,9 @@
 | [**2.5.7.** A two-digit number](problems/problem2.5.7.A_two_digit_number.md)                 | [**2.5.8.** A three-digit number](problems/problem2.5.8.A_three_digit_number.md)                       | [**2.5.9.** A four-digit number](problems/problem2.5.9.A_four_digit_number.md)           |
 | [**2.5.10.** A two-digit number 2](problems/problem2.5.10.A_two_digit_number_2.md)           | [**2.5.11.** A three-digit number 2](problems/problem2.5.11.A_three_digit_number_2.md)                 | [**2.5.12.** Rearranging the numbers](problems/problem2.5.12.Rearranging_the_numbers.md) |
 | [**2.5.13.** Rearranging the numbers 2](problems/problem2.5.13.Rearranging_the_numbers_2.md) |                                                                                                        |                                                                                          |
+
+## 3. Итоговая работа по теме "Ввод-вывод данных"
+| <!-- -->                                                                     | <!-- -->                                                                                               | <!-- -->                                                         |
+|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [**3.2.1.** The Star Rectangle](problems/problem3.2.1.The_star_rectangle.md) | [**3.2.2.** Sum of squares vs square of sum](problems/problem3.2.2.Sum_of_squares_vs_square_of_sum.md) | [**3.2.3.** A big number](problems/problem3.2.3.A_big_number.md) |
+| [**3.2.4.** N-replication](problems/problem3.2.4.N_replication.md)           |                                                                                                        |                                                                  |
