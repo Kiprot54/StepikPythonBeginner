@@ -1,5 +1,6 @@
 print('Пересчёт временного интервала')
 print()
+
 while True:
     minutes = input('Введи количество минут: ')  # 65
     print()
