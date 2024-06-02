@@ -1,3 +1,6 @@
+print('Три последовательных числа')
+print()
+
 n = int(input('Введи число: '))
 print(n)
 print(n + 1)
