@@ -1,7 +1,41 @@
-monitor = int(input('Введи стоимость монитора: '))
-system_block = int(input('Введи системного блока : '))
-keyboard = int(input('Введи стоимость клавиатуры: '))
-mouse = int(input('Введи стоимость мыши: '))
+print('Стоимость покупки')
+print()
+while True:
+    monitor = input('Введи стоимость монитора: ')
+
+    if monitor.isdigit():
+        monitor = int(monitor)
+        break
+    else:
+        print('Нужно ввести целое положительное число')
+        print()
+while True:
+    system_block = input('Введи системного блока: ')
+
+    if system_block.isdigit():
+        system_block = int(system_block)
+        break
+    else:
+        print('Нужно ввести целое положительное число')
+        print()
+while True:
+    keyboard = input('Введи стоимость клавиатуры: ')
+
+    if keyboard.isdigit():
+        keyboard = int(keyboard)
+        break
+    else:
+        print('Нужно ввести целое положительное число')
+        print()
+while True:
+    mouse = input('Введи стоимость мыши: ')
+
+    if mouse.isdigit():
+        mouse = int(mouse)
+        break
+    else:
+        print('Нужно ввести целое положительное число')
+        print()
 print()
 print(f'Стоимость 1 монитора: {monitor};')
 print(f'Стоимость 1 системного блока: {system_block};')
