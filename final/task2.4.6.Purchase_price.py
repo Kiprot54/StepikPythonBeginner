@@ -10,7 +10,7 @@ while True:
         print('Нужно ввести целое положительное число')
         print()
 while True:
-    system_block = input('Введи системного блока: ')
+    system_block = input('Введи стоимость системного блока: ')
 
     if system_block.isdigit():
         system_block = int(system_block)

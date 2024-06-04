@@ -6,7 +6,7 @@ while True:
         a = int(a)
         break
     else:
-        print('Нужно ввести целое положительное число')
+        print('Нужно ввести целое число')
         print()
 while True:
     b = input('Введи второе число: ')
@@ -14,7 +14,7 @@ while True:
         b = int(b)
         break
     else:
-        print('Нужно ввести целое положительное число')
+        print('Нужно ввести целое число')
         print()
 print()
 print(f'{a} + {b} = {a + b}')

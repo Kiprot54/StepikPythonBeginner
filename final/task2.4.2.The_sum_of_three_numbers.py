@@ -28,4 +28,4 @@ while True:
         print('Нужно ввести целое число')
         print()
 print()
-print('Сумма введённых чисел:', n1 + n2 + n3)
+print(f'{n1} + {n2} + {n3} = {n1 + n2 + n3}')
