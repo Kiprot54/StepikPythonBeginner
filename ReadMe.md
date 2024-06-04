@@ -37,7 +37,17 @@
 | [**2.5.13.** Rearranging the numbers 2](problems/problem2.5.13.Rearranging_the_numbers_2.md) |                                                                                                        |                                                                                          |
 
 ## 3. Итоговая работа по теме "Ввод-вывод данных"
+
 | <!-- -->                                                                     | <!-- -->                                                                                               | <!-- -->                                                         |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [**3.2.1.** The Star Rectangle](problems/problem3.2.1.The_star_rectangle.md) | [**3.2.2.** Sum of squares vs square of sum](problems/problem3.2.2.Sum_of_squares_vs_square_of_sum.md) | [**3.2.3.** A big number](problems/problem3.2.3.A_big_number.md) |
 | [**3.2.4.** N-replication](problems/problem3.2.4.N_replication.md)           |                                                                                                        |                                                                  |
+
+## 4. Условный оператор
+
+### 4.1. *Выбор из двух*
+
+| <!-- -->                                                          | <!-- -->                                                         | <!-- -->                                                                    |
+|-------------------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [**4.1.1.** Guess the word](problems/problem4.1.1.Guess_the_word) | [**4.1.2.** Same numbers](problems/problem4.1.2.Same_numbers.md) | [**4.1.3.** Sum of even numbers](problems/problem4.1.3.Sum_of_even_numbers) |
+| [**4.1.4.** Password](problems/problem4.1.4.Password)             |                                                                  |                                                                             |
