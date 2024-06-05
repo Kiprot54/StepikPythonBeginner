@@ -47,7 +47,7 @@
 
 ### 4.1. *Выбор из двух*
 
-| <!-- -->                                                          | <!-- -->                                                         | <!-- -->                                                                    |
-|-------------------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| [**4.1.1.** Guess the word](problems/problem4.1.1.Guess_the_word) | [**4.1.2.** Same numbers](problems/problem4.1.2.Same_numbers.md) | [**4.1.3.** Sum of even numbers](problems/problem4.1.3.Sum_of_even_numbers) |
-| [**4.1.4.** Password](problems/problem4.1.4.Password)             |                                                                  |                                                                             |
+| <!-- -->                                                          | <!-- -->                                                         | <!-- -->                                                                       |
+|-------------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| [**4.1.1.** Guess the word](problems/problem4.1.1.Guess_the_word) | [**4.1.2.** Same numbers](problems/problem4.1.2.Same_numbers.md) | [**4.1.3.** Sum of even numbers](problems/problem4.1.3.Sum_of_even_numbers.md) |
+| [**4.1.4.** Password](problems/problem4.1.4.Password.md)          | [**4.1.5.** Even or odd?](problems/problem4.1.5.Even_or_odd.md)  | [**4.1.6.** Relation](problems/problem4.1.6.Relation.md)                       |
