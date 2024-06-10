@@ -56,11 +56,10 @@
 
 ### 4.2. *Логические операции*
 
-| <!-- -->                                                                                   | <!-- -->                                                                                 | <!-- -->                                                                               |
-|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [**4.2.1.** Three-digit number](problems/problem4.2.1.three_digit_number.md)               | [**4.2.2.** Everyone is different](problems/problem4.2.2.Everyone_is_different.md)       | [**4.2.3.** Сoordinate quarter](problems/problem4.2.3.Сoordinate_quarter.md)           |
-<!--
-| [**4.1.4.** Password](problems/problem4.1.4.Password.md)                                   | [**4.1.5.** Even or odd?](problems/problem4.1.5.Even_or_odd.md)                          | [**4.1.6.** Relation](problems/problem4.1.6.Relation.md)                               |
-| [**4.1.7.** Oversight Committee](problems/problem4.1.7.Oversight_Committee.md)             | [**4.1.8.** Arithmetic progression 2](problems/problem4.1.8.Arithmetic_progression_2.md) | [**4.1.9.** Smallest of two numbers](problems/problem4.1.9.Smallest_of_two_numbers.md) |
-| [**4.1.10.** Smallest of four numbers](problems/problem4.1.10.Smallest_of_four_numbers.md) | [**4.1.11.** Age group](problems/problem4.1.11.Age_group.md)                             | [**4.1.12.** Only plus](problems/problem4.1.12.Only_plus.md)                           |
+| <!-- -->                                                                     | <!-- -->                                                                           | <!-- -->                                                                     |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [**4.2.1.** Three-digit number](problems/problem4.2.1.three_digit_number.md) | [**4.2.2.** Everyone is different](problems/problem4.2.2.Everyone_is_different.md) | [**4.2.3.** Сoordinate quarter](problems/problem4.2.3.Сoordinate_quarter.md) |
+| [**4.2.4.** Belonging 1](problems/problem4.2.4.Belonging_1.md)               | [**4.2.5.** Belonging 2](problems/problem4.2.5.Belonging_2.md)                     | [**4.2.6.** Belonging 3](problems/problem4.2.6.Belonging_3.md)               |
+| [**4.2.7.** Beautiful number](problems/problem4.2.7.Beautiful_number.md)     | [**4.2.8.** Triangle inequality](problems/problem4.2.8.Triangle_inequality.md)     | [**4.2.9.** Leap year](problems/problem4.2.9.Leap_year.md)                   |
+| [**4.2.10.** Rook move](problems/problem4.2.10.Rook_move.md)                 | [**4.2.11.** King Move](problems/problem4.2.11.King_Move.md)                       |                                                                              |
 -->
