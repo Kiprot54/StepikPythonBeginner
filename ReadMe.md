@@ -62,4 +62,3 @@
 | [**4.2.4.** Belonging 1](problems/problem4.2.4.Belonging_1.md)               | [**4.2.5.** Belonging 2](problems/problem4.2.5.Belonging_2.md)                     | [**4.2.6.** Belonging 3](problems/problem4.2.6.Belonging_3.md)               |
 | [**4.2.7.** Beautiful number](problems/problem4.2.7.Beautiful_number.md)     | [**4.2.8.** Triangle inequality](problems/problem4.2.8.Triangle_inequality.md)     | [**4.2.9.** Leap year](problems/problem4.2.9.Leap_year.md)                   |
 | [**4.2.10.** Rook move](problems/problem4.2.10.Rook_move.md)                 | [**4.2.11.** King Move](problems/problem4.2.11.King_Move.md)                       |                                                                              |
--->
