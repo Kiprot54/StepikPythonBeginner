@@ -61,4 +61,13 @@
 | [**4.2.1.** Three-digit number](problems/problem4.2.1.three_digit_number.md) | [**4.2.2.** Everyone is different](problems/problem4.2.2.Everyone_is_different.md) | [**4.2.3.** Сoordinate quarter](problems/problem4.2.3.Сoordinate_quarter.md) |
 | [**4.2.4.** Belonging 1](problems/problem4.2.4.Belonging_1.md)               | [**4.2.5.** Belonging 2](problems/problem4.2.5.Belonging_2.md)                     | [**4.2.6.** Belonging 3](problems/problem4.2.6.Belonging_3.md)               |
 | [**4.2.7.** Beautiful number](problems/problem4.2.7.Beautiful_number.md)     | [**4.2.8.** Triangle inequality](problems/problem4.2.8.Triangle_inequality.md)     | [**4.2.9.** Leap year](problems/problem4.2.9.Leap_year.md)                   |
-| [**4.2.10.** Rook move](problems/problem4.2.10.Rook_move.md)                 | [**4.2.11.** King Move](problems/problem4.2.11.King_Move.md)                       |                                                                              |
+| [**4.2.10.** Rook move*](problems/problem4.2.10.Rook_move.md)                | [**4.2.11.** King Move*](problems/problem4.2.11.King_Move.md)                      |                                                                              |
+
+### 4.3. *Вложенные и каскадные условия*
+
+| <!-- -->                                                                                     | <!-- -->                                                             | <!-- -->                                                                            |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [**4.3.1.** Matching numbers](problems/problem4.3.1.Matching_numbers.md)                     | [**4.3.2.** Speedster Race](problems/problem4.3.2.Speedster_race.md) | [**4.3.3.** Triangle view](problems/problem4.3.3.Triangle_view.md)                  |
+| [**4.3.4.** Middle number](problems/problem4.3.4.Middle_number.md)                           | [**4.3.5.** Number of days](problems/problem4.3.5.Number_of_days.md) | [**4.3.6.** Weighing ceremony](problems/problem4.3.6.Weighing_ceremony.md)          |
+| [**4.3.7.** Self-written calculator](problems/problem4.3.7.Self_written_calculator.md)       | [**4.3.8.** Color Mixer](problems/problem4.3.8.Color_mixer.md)       | [**4.3.9.** Roulette Wheel Colors*](problems/problem4.3.9.Roulette_wheel_colors.md) |
+| [**4.3.10.** Intersection of segments**](problems/problem4.3.10.Intersection_of_segments.md) |                                                                      |                                                                                     |

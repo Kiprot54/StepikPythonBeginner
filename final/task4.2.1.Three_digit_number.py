@@ -2,7 +2,7 @@ print('Трёхзначное число')
 print()
 while True:
     n = input('Введи число: ')
-    if n.isdigit() and n != 0:
+    if n.isdigit() and int(n) != 0:
         # n = int(n)
         break
     else:
