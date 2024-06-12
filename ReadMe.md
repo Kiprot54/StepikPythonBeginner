@@ -61,7 +61,7 @@
 | [**4.2.1.** Three-digit number](problems/problem4.2.1.three_digit_number.md) | [**4.2.2.** Everyone is different](problems/problem4.2.2.Everyone_is_different.md) | [**4.2.3.** Сoordinate quarter](problems/problem4.2.3.Сoordinate_quarter.md) |
 | [**4.2.4.** Belonging 1](problems/problem4.2.4.Belonging_1.md)               | [**4.2.5.** Belonging 2](problems/problem4.2.5.Belonging_2.md)                     | [**4.2.6.** Belonging 3](problems/problem4.2.6.Belonging_3.md)               |
 | [**4.2.7.** Beautiful number](problems/problem4.2.7.Beautiful_number.md)     | [**4.2.8.** Triangle inequality](problems/problem4.2.8.Triangle_inequality.md)     | [**4.2.9.** Leap year](problems/problem4.2.9.Leap_year.md)                   |
-| [**4.2.10.** The Rook's move*](problems/problem4.2.10.The_rook_move)         | [**4.2.11.** The King's Move*](problems/problem4.2.11.The_King_Move)               |                                                                              |
+| [**4.2.10.** The Rook's move*](problems/problem4.2.10.The_rook_move.md)      | [**4.2.11.** The King's Move*](problems/problem4.2.11.The_King_Move.md)            |                                                                              |
 
 ### 4.3. *Вложенные и каскадные условия*
 
