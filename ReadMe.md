@@ -61,7 +61,7 @@
 | [**4.2.1.** Three-digit number](problems/problem4.2.1.three_digit_number.md) | [**4.2.2.** Everyone is different](problems/problem4.2.2.Everyone_is_different.md) | [**4.2.3.** Сoordinate quarter](problems/problem4.2.3.Сoordinate_quarter.md) |
 | [**4.2.4.** Belonging 1](problems/problem4.2.4.Belonging_1.md)               | [**4.2.5.** Belonging 2](problems/problem4.2.5.Belonging_2.md)                     | [**4.2.6.** Belonging 3](problems/problem4.2.6.Belonging_3.md)               |
 | [**4.2.7.** Beautiful number](problems/problem4.2.7.Beautiful_number.md)     | [**4.2.8.** Triangle inequality](problems/problem4.2.8.Triangle_inequality.md)     | [**4.2.9.** Leap year](problems/problem4.2.9.Leap_year.md)                   |
-| [**4.2.10.** Rook move*](problems/problem4.2.10.Rook_move.md)                | [**4.2.11.** King Move*](problems/problem4.2.11.King_Move.md)                      |                                                                              |
+| [**4.2.10.** The Rook's move*](problems/problem4.2.10.The_rook_move)         | [**4.2.11.** The King's Move*](problems/problem4.2.11.The_King_Move)               |                                                                              |
 
 ### 4.3. *Вложенные и каскадные условия*
 
@@ -71,3 +71,11 @@
 | [**4.3.4.** Middle number](problems/problem4.3.4.Middle_number.md)                           | [**4.3.5.** Number of days](problems/problem4.3.5.Number_of_days.md) | [**4.3.6.** Weighing ceremony](problems/problem4.3.6.Weighing_ceremony.md)          |
 | [**4.3.7.** Self-written calculator](problems/problem4.3.7.Self_written_calculator.md)       | [**4.3.8.** Color Mixer](problems/problem4.3.8.Color_mixer.md)       | [**4.3.9.** Roulette Wheel Colors*](problems/problem4.3.9.Roulette_wheel_colors.md) |
 | [**4.3.10.** Intersection of segments**](problems/problem4.3.10.Intersection_of_segments.md) |                                                                      |                                                                                     |
+
+## 5. Итоговая работа по теме "Условный оператор"
+
+| <!-- -->                                                                                     | <!-- -->                                                                                            | <!-- -->                                                               |
+|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [**5.1.1.** Beginning of the century](problems/problem5.1.1.Beginning_of_the_century.md)     | [**5.1.2.** Chessboard](problems/problem5.1.2.Chessboard.md)                                        | [**5.1.3.** Girls only](problems/problem5.1.3.Girls_only.md)           |
+| [**5.1.4.** Roman numerals](problems/problem5.1.4.Roman_numerals.md)                         | [**5.1.5.** YES or NO that's the question](problems/problem5.1.5.Yes_or_no_that_is_the_question.md) | [**5.1.6.** The Bishop's Move*](problems/problem5.1.6.The_bishop_move) |
+| [**5.1.7.** The Knight's Move*](problems/problem5.1.7.The_knight_move)                       | [**5.1.8.** The Queen's move*](problems/problem5.1.8.The_queen_move.md)                             |                                                                        |
