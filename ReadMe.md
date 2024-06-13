@@ -74,8 +74,19 @@
 
 ## 5. Итоговая работа по теме "Условный оператор"
 
-| <!-- -->                                                                                     | <!-- -->                                                                                            | <!-- -->                                                               |
-|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**5.1.1.** Beginning of the century](problems/problem5.1.1.Beginning_of_the_century.md)     | [**5.1.2.** Chessboard](problems/problem5.1.2.Chessboard.md)                                        | [**5.1.3.** Girls only](problems/problem5.1.3.Girls_only.md)           |
-| [**5.1.4.** Roman numerals](problems/problem5.1.4.Roman_numerals.md)                         | [**5.1.5.** YES or NO that's the question](problems/problem5.1.5.Yes_or_no_that_is_the_question.md) | [**5.1.6.** The Bishop's Move*](problems/problem5.1.6.The_bishop_move) |
-| [**5.1.7.** The Knight's Move*](problems/problem5.1.7.The_knight_move)                       | [**5.1.8.** The Queen's move*](problems/problem5.1.8.The_queen_move.md)                             |                                                                        |
+| <!-- -->                                                                                 | <!-- -->                                                                                            | <!-- -->                                                                  |
+|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [**5.1.1.** Beginning of the century](problems/problem5.1.1.Beginning_of_the_century.md) | [**5.1.2.** Chessboard](problems/problem5.1.2.Chessboard.md)                                        | [**5.1.3.** Girls only](problems/problem5.1.3.Girls_only.md)              |
+| [**5.1.4.** Roman numerals](problems/problem5.1.4.Roman_numerals.md)                     | [**5.1.5.** YES or NO that's the question](problems/problem5.1.5.Yes_or_no_that_is_the_question.md) | [**5.1.6.** The Bishop's Move*](problems/problem5.1.6.The_bishop_move.md) |
+| [**5.1.7.** The Knight's Move*](problems/problem5.1.7.The_knight_move.md)                | [**5.1.8.** The Queen's move*](problems/problem5.1.8.The_queen_move.md)                             |                                                                           |
+
+## 6. Типы данных
+
+### 6.1. *Числовые типы данных: int, float*
+
+| <!-- -->                                                                             | <!-- -->                                                                                         | <!-- -->                                                                                           |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [**6.1.1.** Area of the triangle](problems/problem6.1.1.Area_of_the_triangle.md)     | [**6.1.2.** Two old ladies](problems/problem6.1.2.Two_old_ladies.md)                             | [**6.1.3.** The reverse number](problems/problem6.1.3.The_reverse_number.md)                       |
+| [**6.1.4.** Fahrenheit 451](problems/problem6.1.4.Fahrenheit_451.md)                 | [**6.1.5.** Dog age](problems/problem6.1.5.Dog_age.md)                                           | [**6.1.6.** The first digit after the dot](problems/problem6.1.6.The_first_digit_after_the_dot.md) |
+| [**6.1.7.** Fractional part](problems/problem6.1.7.Fractional_part.md)               | [**6.1.8.** The largest and the smallest](problems/problem6.1.8.The_largest_and_the_smallest.md) | [**6.1.9.** Sorting three](problems/problem6.1.9.Sorting_three.md)                                 |
+| [**6.1.10.** An interesting number](problems/problem6.1.10.An_interesting_number.md) | [**6.1.11.** Absolute amount](problems/problem6.1.11.Absolute_amount.md)                         | [**6.1.12.** Manhattan distance](problems/problem6.1.12.Manhattan_distance.md)                     |
