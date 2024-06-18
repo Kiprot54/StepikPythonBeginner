@@ -90,3 +90,11 @@
 | [**6.1.4.** Fahrenheit 451](problems/problem6.1.4.Fahrenheit_451.md)                 | [**6.1.5.** Dog age](problems/problem6.1.5.Dog_age.md)                                           | [**6.1.6.** The first digit after the dot](problems/problem6.1.6.The_first_digit_after_the_dot.md) |
 | [**6.1.7.** Fractional part](problems/problem6.1.7.Fractional_part.md)               | [**6.1.8.** The largest and the smallest](problems/problem6.1.8.The_largest_and_the_smallest.md) | [**6.1.9.** Sorting three](problems/problem6.1.9.Sorting_three.md)                                 |
 | [**6.1.10.** An interesting number](problems/problem6.1.10.An_interesting_number.md) | [**6.1.11.** Absolute amount](problems/problem6.1.11.Absolute_amount.md)                         | [**6.1.12.** Manhattan distance](problems/problem6.1.12.Manhattan_distance.md)                     |
+
+### 6.2. *Строковый тип данных*
+
+| <!-- -->                                                              | <!-- -->                                                                     | <!-- -->                                                                     |
+|-----------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [**6.2.1.** Concatenation](problems/problem6.2.1.Concatenation.md)    | [**6.2.2.** What's Your Name?](problems/problem6.2.2.Whats_Your_Name.md)     | [**6.2.3.** Football team](problems/problem6.2.3.Football_team.md)           |
+| [**6.2.4.** Three cities](problems/problem6.2.4.Three_cities.md)      | [**6.2.5.** Arithmetic strings](problems/problem6.2.5.Arithmetic_strings.md) | [**6.2.6.** Mood color is blue](problems/problem6.2.6.Mood_color_is_blue.md) |
+| [**6.2.7.** Are we resting?](problems/problem6.2.7.Are_we_resting.md) | [**6.2.8.** Correct email](problems/problem6.2.8.Correct_email.md)           |                                                                              |
