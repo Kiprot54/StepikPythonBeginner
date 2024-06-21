@@ -98,3 +98,12 @@
 | [**6.2.1.** Concatenation](problems/problem6.2.1.Concatenation.md)    | [**6.2.2.** What's Your Name?](problems/problem6.2.2.Whats_Your_Name.md)     | [**6.2.3.** Football team](problems/problem6.2.3.Football_team.md)           |
 | [**6.2.4.** Three cities](problems/problem6.2.4.Three_cities.md)      | [**6.2.5.** Arithmetic strings](problems/problem6.2.5.Arithmetic_strings.md) | [**6.2.6.** Mood color is blue](problems/problem6.2.6.Mood_color_is_blue.md) |
 | [**6.2.7.** Are we resting?](problems/problem6.2.7.Are_we_resting.md) | [**6.2.8.** Correct email](problems/problem6.2.8.Correct_email.md)           |                                                                              |
+
+### 6.3. *Модуль math*
+
+| <!-- -->                                                                     | <!-- -->                                                                     | <!-- -->                                                                     |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [**6.3.1.** Euclidean distance](problems/problem6.3.1.Euclidean_distance.md) | [**6.3.2.** Area and length](problems/problem6.3.2.Area_and_length.md)       | [**6.3.3.** Average values](problems/problem6.3.3.Average_values.md)         |
+
+<!-- | [**6.2.4.** Three cities](problems/problem6.2.4.Three_cities.md)             | [**6.2.5.** Arithmetic strings](problems/problem6.2.5.Arithmetic_strings.md) | [**6.2.6.** Mood color is blue](problems/problem6.2.6.Mood_color_is_blue.md) |
+| [**6.2.7.** Are we resting?](problems/problem6.2.7.Are_we_resting.md)        | [**6.2.8.** Correct email](problems/problem6.2.8.Correct_email.md)           |                                                                              | -->
