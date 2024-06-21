@@ -101,9 +101,7 @@
 
 ### 6.3. *Модуль math*
 
-| <!-- -->                                                                     | <!-- -->                                                                     | <!-- -->                                                                     |
-|------------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [**6.3.1.** Euclidean distance](problems/problem6.3.1.Euclidean_distance.md) | [**6.3.2.** Area and length](problems/problem6.3.2.Area_and_length.md)       | [**6.3.3.** Average values](problems/problem6.3.3.Average_values.md)         |
-
-<!-- | [**6.2.4.** Three cities](problems/problem6.2.4.Three_cities.md)             | [**6.2.5.** Arithmetic strings](problems/problem6.2.5.Arithmetic_strings.md) | [**6.2.6.** Mood color is blue](problems/problem6.2.6.Mood_color_is_blue.md) |
-| [**6.2.7.** Are we resting?](problems/problem6.2.7.Are_we_resting.md)        | [**6.2.8.** Correct email](problems/problem6.2.8.Correct_email.md)           |                                                                              | -->
+| <!-- -->                                                                     | <!-- -->                                                               | <!-- -->                                                             |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [**6.3.1.** Euclidean distance](problems/problem6.3.1.Euclidean_distance.md) | [**6.3.2.** Area and length](problems/problem6.3.2.Area_and_length.md) | [**6.3.3.** Average values](problems/problem6.3.3.Average_values.md) |
+| [**6.3.4.** Floor and ceiling](problems/problem6.3.4.Floor_and_ceiling.md)   | [**6.3.5.** Regular polygon](problems/problem6.3.5.Regular_polygon.md) |                                                                      |
