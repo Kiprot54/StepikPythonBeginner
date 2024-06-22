@@ -6,13 +6,13 @@
 
 - отрезок:
 
-![отрезок](/img/problem4.3.10_1.png "отрезок")
+<img src="/img/problem4.3.10_1.png" alt="отрезок" width="500">
 
 - точка:
 
-![точка](/img/problem4.3.10_2.png "точка")
+<img src="/img/problem4.3.10_2.png" alt="точка" width="500">
 
 - пустое множество:
 
-![пустое множество](/img/problem4.3.10_3.png "пустое множество")
+<img src="/img/problem4.3.10_3.png" alt="пустое множество" width="500">
 
