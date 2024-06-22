@@ -105,3 +105,13 @@
 |------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [**6.3.1.** Euclidean distance](problems/problem6.3.1.Euclidean_distance.md) | [**6.3.2.** Area and length](problems/problem6.3.2.Area_and_length.md) | [**6.3.3.** Average values](problems/problem6.3.3.Average_values.md) |
 | [**6.3.4.** Floor and ceiling](problems/problem6.3.4.Floor_and_ceiling.md)   | [**6.3.5.** Regular polygon](problems/problem6.3.5.Regular_polygon.md) |                                                                      |
+
+## 7. Циклы for и while
+
+### 7.1. *Цикл for*
+
+| <!-- -->                                                                             | <!-- -->                                                                   | <!-- -->                                                                             |
+|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [**7.1.1.** Python is awesome](problems/problem7.1.1.Python_is_awesome.md)           | [**7.1.2.** Repeat after me 1](problems/problem7.1.2.Repeat_after_me_1.md) | [**7.1.3.** Sequence of characters](problems/problem7.1.3.Sequence_of_characters.md) |
+| [**7.1.4.** Star Rectangle](problems/problem7.1.4.Star_Rectangle.md)                 | [**7.1.5.** Repeat after me 2](problems/problem7.1.5.Repeat_after_me_2.md) | [**7.1.6.** square of the number](problems/problem7.1.6.Square_of_the_number.md)     |
+| [**7.1.7.** Star Triangle](problems/problem7.1.7.Star_triangle.md)                   | [**7.1.8.** Population](problems/problem7.1.8.Population.md)               |                                                                                      |
