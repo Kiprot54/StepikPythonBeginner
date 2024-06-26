@@ -122,3 +122,10 @@
 |------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**7.2.1.** Sequence of numbers 1](problems/problem7.2.1.Sequence_of_numbers_1.md) | [**7.2.2.** Sequence of numbers 2](problems/problem7.2.2.Sequence_of_numbers_2.md) | [**7.2.3.** Sequence of numbers 3](problems/problem7.2.3.Sequence_of_numbers_3.md) |
 | [**7.2.4.** Sequence of numbers 4](problems/problem7.2.4.Sequence_of_numbers_4.md) | [**7.2.5.** Multiplication table](problems/problem7.2.5.Multiplication_table.md)   |                                                                                    |
+
+### 7.3. *Частые сценарии*
+
+| <!-- -->                                                                   | <!-- -->                                                              | <!-- -->                                                                                 |
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [**7.3.1.** Amount of numbers](problems/problem7.3.1.Amount_of_numbers.md) | [**7.3.2.** Sum of numbers](problems/problem7.3.2.Sum_of_numbers.md)  | [**7.3.3.** Asymptotic approximation](problems/problem7.3.3.Asymptotic_approximation.md) |
+| [**7.3.4.** Sum of numbers 2](problems/problem7.3.4.Sum_of_numbers_2.md)   | [**7.3.5.** Factorial](problems/problem7.3.5.Factorial.md) |                                                                                          |
