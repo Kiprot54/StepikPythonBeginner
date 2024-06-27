@@ -125,7 +125,9 @@
 
 ### 7.3. *Частые сценарии*
 
-| <!-- -->                                                                   | <!-- -->                                                              | <!-- -->                                                                                 |
-|----------------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [**7.3.1.** Amount of numbers](problems/problem7.3.1.Amount_of_numbers.md) | [**7.3.2.** Sum of numbers](problems/problem7.3.2.Sum_of_numbers.md)  | [**7.3.3.** Asymptotic approximation](problems/problem7.3.3.Asymptotic_approximation.md) |
-| [**7.3.4.** Sum of numbers 2](problems/problem7.3.4.Sum_of_numbers_2.md)   | [**7.3.5.** Factorial](problems/problem7.3.5.Factorial.md) |                                                                                          |
+| <!-- -->                                                                      | <!-- -->                                                                       | <!-- -->                                                                                 |
+|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [**7.3.1.** Amount of numbers](problems/problem7.3.1.Amount_of_numbers.md)    | [**7.3.2.** Sum of numbers](problems/problem7.3.2.Sum_of_numbers.md)           | [**7.3.3.** Asymptotic approximation](problems/problem7.3.3.Asymptotic_approximation.md) |
+| [**7.3.4.** Sum of numbers 2](problems/problem7.3.4.Sum_of_numbers_2.md)      | [**7.3.5.** Factorial](problems/problem7.3.5.Factorial.md)                     | [**7.3.6.** No zeros](problems/problem7.3.6.No_zeros.md)                                 |
+| [**7.3.7.** Sum of divisors](problems/problem7.3.7.Sum_of_divisors.md)        | [**7.3.8.** Alternating sum](problems/problem7.3.8.Alternating_sum.md)         | [**7.3.9.** Largest numbers**](problems/problem7.3.9.Largest_numbers.md)                 |
+| [**7.3.10.** Only even numbers*](problems/problem7.3.10.Only_even_numbers.md) | [**7.3.11.** Fibonacci sequence](problems/problem7.3.11.Fibonacci_sequence.md) |                                                                                          |
