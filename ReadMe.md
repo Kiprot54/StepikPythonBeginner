@@ -131,3 +131,10 @@
 | [**7.3.4.** Sum of numbers 2](problems/problem7.3.4.Sum_of_numbers_2.md)      | [**7.3.5.** Factorial](problems/problem7.3.5.Factorial.md)                     | [**7.3.6.** No zeros](problems/problem7.3.6.No_zeros.md)                                 |
 | [**7.3.7.** Sum of divisors](problems/problem7.3.7.Sum_of_divisors.md)        | [**7.3.8.** Alternating sum](problems/problem7.3.8.Alternating_sum.md)         | [**7.3.9.** Largest numbers**](problems/problem7.3.9.Largest_numbers.md)                 |
 | [**7.3.10.** Only even numbers*](problems/problem7.3.10.Only_even_numbers.md) | [**7.3.11.** Fibonacci sequence](problems/problem7.3.11.Fibonacci_sequence.md) |                                                                                          |
+
+### 7.4. *Цикл while*
+
+| <!-- -->                                                                      | <!-- -->                                                                       | <!-- -->                                                                                                     |
+|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| [**7.4.1.** Till END](problems/problem7.4.1.Till_END)                         | [**7.4.2.** Number of members](problems/problem7.4.2.Number_of_members.md)     | [**7.4.3.** While_sharing](problems/problem7.4.3.While_sharing.md)                                           |
+| [**7.4.4.** Sum of numbers](problems/problem7.4.4.Sum_of_numbers.md)          | [**7.4.5.** Number of fives](problems/problem7.4.5.Number_of_fives.md)         | [**7.4.6.** Pay the Witcher with a minted coin](problems/problem7.4.6.Pay_the_Witcher_with_a_minted_coin.md) |
