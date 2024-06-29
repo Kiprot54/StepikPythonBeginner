@@ -138,3 +138,11 @@
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [**7.4.1.** Till END](problems/problem7.4.1.Till_END)                         | [**7.4.2.** Number of members](problems/problem7.4.2.Number_of_members.md)     | [**7.4.3.** While_sharing](problems/problem7.4.3.While_sharing.md)                                           |
 | [**7.4.4.** Sum of numbers](problems/problem7.4.4.Sum_of_numbers.md)          | [**7.4.5.** Number of fives](problems/problem7.4.5.Number_of_fives.md)         | [**7.4.6.** Pay the Witcher with a minted coin](problems/problem7.4.6.Pay_the_Witcher_with_a_minted_coin.md) |
+
+### 7.5. *Цикл while: обработка цифр числа*
+
+| <!-- -->                                                             | <!-- -->                                                               | <!-- -->                                                       |
+|----------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------|
+| [**7.5.1.** Reverse order 1](problems/problem7.5.1.Reverse_order_1)  | [**7.5.2.** Reverse order 2](problems/problem7.5.2.Reverse_order_2.md) | [**7.5.3.** max and min](problems/problem7.5.3.max_and_min.md) |
+| [**7.5.4.** All together](problems/problem7.5.4.All_together.md)     | [**7.5.5.** Second digit](problems/problem7.5.5.Second_digit.md)       | [**7.5.6.** Same digits](problems/problem7.5.6.Same_digits.md) |
+| [**7.5.7.** Ordered digits](problems/problem7.5.7.Ordered_digits.md) |                                                                        |                                                                |
