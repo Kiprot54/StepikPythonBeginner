@@ -1,0 +1,5 @@
+print("What's Your Name?")
+print()
+name = input('Введи свой имя: ')
+surname = input('Введи свою фамилию: ')
+print(f'Hello {name} {surname}! You have just delved into Python.')
