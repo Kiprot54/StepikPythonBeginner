@@ -158,4 +158,4 @@
 | <!-- -->                                                             | <!-- -->                                                                     | <!-- -->                                               |
 |----------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------|
 | [**7.8.1.** Table 1](problems/problem7.8.1.Table_1.md)               | [**7.8.2.** Table 2](problems/problem7.8.2.Table_2.md)                       | [**7.8.3.** Table 3](problems/problem7.8.3.Table_3.md) |
-| [**7.8.4.** Star Triangle**](problems/problem7.8.4.Star_Triangle.md) | [**7.8.5.** Number Triangle 1**](problems/problem7.8.5.Number_Triangle_1.md) |                                                        |
+| [**7.8.4.** Star Triangle**](problems/problem7.8.4.Star_Triangle.md) | [**7.8.5.** Number Triangle 1](problems/problem7.8.5.Number_Triangle_1.md) |                                                        |
