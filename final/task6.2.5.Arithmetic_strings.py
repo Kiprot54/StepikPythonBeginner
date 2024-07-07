@@ -22,5 +22,3 @@ if middle_len_s - min_len_s == max_len_s - middle_len_s:
     print(f'Длины строк <{s1}>, <{s2}>, <{s3}> составляют арифметическую прогрессию')
 else:
     print(f'Длины строк <{s1}>, <{s2}>, <{s3}> не составляют арифметическую прогрессию')
-# rooooooooooooooooorr
-# qqqqqqqewrtyyyy234

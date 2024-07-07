@@ -23,4 +23,4 @@ elif len_city_name_2 < len_city_name_min:
     len_city_name_min = len_city_name_2
     city_name_min = city_name_2
 print(f'Из трёх городов {city_name_1}, {city_name_2}, {city_name_3} самое короткое название у города {city_name_min} - {len_city_name_min} букв')
-print(f'Из трёх городов {city_name_1}, {city_name_2}, {city_name_3} самое длиное название у города {city_name_max} - {len_city_name_max} букв')
+print(f'Из трёх городов {city_name_1}, {city_name_2}, {city_name_3} самое длинное название у города {city_name_max} - {len_city_name_max} букв')
