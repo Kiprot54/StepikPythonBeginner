@@ -155,7 +155,15 @@
 
 ### 7.8. *ЦВложенные циклы. Часть 1*
 
-| <!-- -->                                                             | <!-- -->                                                                     | <!-- -->                                               |
-|----------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------|
-| [**7.8.1.** Table 1](problems/problem7.8.1.Table_1.md)               | [**7.8.2.** Table 2](problems/problem7.8.2.Table_2.md)                       | [**7.8.3.** Table 3](problems/problem7.8.3.Table_3.md) |
+| <!-- -->                                                             | <!-- -->                                                                   | <!-- -->                                               |
+|----------------------------------------------------------------------|----------------------------------------------------------------------------|--------------------------------------------------------|
+| [**7.8.1.** Table 1](problems/problem7.8.1.Table_1.md)               | [**7.8.2.** Table 2](problems/problem7.8.2.Table_2.md)                     | [**7.8.3.** Table 3](problems/problem7.8.3.Table_3.md) |
 | [**7.8.4.** Star Triangle**](problems/problem7.8.4.Star_Triangle.md) | [**7.8.5.** Number Triangle 1](problems/problem7.8.5.Number_Triangle_1.md) |                                                        |
+
+### 7.9. *ЦВложенные циклы. Часть 2*
+
+| <!-- -->                                                                   | <!-- -->                                                                   | <!-- -->                                                                   |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [**7.9.1.** Number Triangle 2](problems/problem7.9.1.Number_Triangle_2.md) | [**7.9.2.** Number Triangle 3](problems/problem7.9.2.Number_Triangle_3.md) | [**7.9.3.** Dividers-1*](problems/problem7.9.3.Dividers_1.md)              |
+| [**7.9.4.** Dividers-2](problems/problem7.9.4.Dividers_2.md)               | [**7.9.5.** Digital root](problems/problem7.9.5.Digital_root.md)           | [**7.9.6.** Sum of factorials](problems/problem7.9.6.Sum_of_factorials.md) |
+| [**7.9.7.** Prime numbers](problems/problem7.9.7.Prime_numbers.md)         |                                                                            |                                                                            |
