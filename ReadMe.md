@@ -173,3 +173,14 @@
 | <!-- -->                                                                  | <!-- -->                                                                                            | <!-- -->                                                                  |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [**8.2.1.** Star frame](problems/problem8.2.1.Star_frame.md)              | [**8.2.2.** Third digit](problems/problem8.2.2.Third_digit.md)                                      | [**8.2.3.** All together 2](problems/problem8.2.3.All_together_2.md)      |
+
+## 9  Строковый тип данных
+
+### 9.1. *Индексация*
+
+| <!-- -->                                                                             | <!-- -->                                                                       | <!-- -->                                                                       |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| [**9.1.1.** Show symbol 1](problems/problem9.1.1.Show_symbol_1.md)                   | [**9.1.2.** Show symbol 2](problems/problem9.1.2.Show_symbol_2.md)             | [**9.1.3.** In column 1](problems/problem9.1.3.In_column_1.md)                 |
+| [**9.1.4.** Show symbol 2](problems/problem9.1.4.Show_symbol_2.md)                   | [**9.1.5.** Full name](problems/problem9.1.5.Full_name.md)                     | [**9.1.6.** Number 1](problems/problem9.1.6.Number_1.md)                       |
+| [**9.1.7.** Number 2](problems/problem9.1.7.Number_2.md)                             | [**9.1.8.** How many times?](problems/problem9.1.8.How_many_times.md)          | [**9.1.9.** Identical neighbors](problems/problem9.1.9.Identical_neighbors.md) |
+| [**9.1.10.** Vowels and consonants](problems/problem9.1.10.Vowels_and_consonants.md) | [**9.1.11.** Decimal to Binary**](problems/problem9.1.11.Decimal_to_Binary.md) |                                                                                |
