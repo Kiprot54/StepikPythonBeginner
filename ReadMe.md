@@ -167,3 +167,9 @@
 | [**7.9.1.** Number Triangle 2](problems/problem7.9.1.Number_Triangle_2.md) | [**7.9.2.** Number Triangle 3](problems/problem7.9.2.Number_Triangle_3.md) | [**7.9.3.** Dividers-1*](problems/problem7.9.3.Dividers_1.md)              |
 | [**7.9.4.** Dividers-2](problems/problem7.9.4.Dividers_2.md)               | [**7.9.5.** Digital root](problems/problem7.9.5.Digital_root.md)           | [**7.9.6.** Sum of factorials](problems/problem7.9.6.Sum_of_factorials.md) |
 | [**7.9.7.** Prime numbers](problems/problem7.9.7.Prime_numbers.md)         |                                                                            |                                                                            |
+
+## 8. Итоговая работа по теме "Циклы"
+
+| <!-- -->                                                                  | <!-- -->                                                                                            | <!-- -->                                                                  |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [**8.2.1.** Star frame](problems/problem8.2.1.Star_frame.md)              | [**8.2.2.** Third digit](problems/problem8.2.2.Third_digit.md)                                      | [**8.2.3.** All together 2](problems/problem8.2.3.All_together_2.md)      |
