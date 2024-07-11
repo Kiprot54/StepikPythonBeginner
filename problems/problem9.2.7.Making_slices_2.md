@@ -1,0 +1,23 @@
+## Делаем срезы 2
+
+На вход программе подается одна строка длиной больше 5 символов. Напишите программу, которая выводит:
+
+- третий символ этой строки;
+- предпоследний символ этой строки;
+- первые пять символов этой строки;
+- всю строку, кроме последних двух символов;
+- все символы с чётными индексами;
+- все символы с нечётными индексами;
+- все символы в обратном порядке;
+- все символы строки через один в обратном порядке, начиная с последнего.
+
+<br>
+
+### *Тестовые данные:*
+
+| Номер теста | Входные данные                                                                                                   | Выходные данные                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|:-----------:|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      1      | abcdefghijklmnopqrstuvwxyz                                                                                       | c<br>y<br>abcde<br>abcdefghijklmnopqrstuvwx<br>acegikmoqsuwy<br>bdfhjlnprtvxz<br>zyxwvutsrqponmlkjihgfedcba<br>zxvtrpnljhfdb                                                                                                                                                                                                                                                                                                              |
+|      2      | The weak can never forgive. Forgiveness is the attribute of the strong                                           | e<br>n<br>The w<br>The weak can never forgive. Forgiveness is the attribute of the stro<br>Tewa a ee ogv.Frieesi h trbt ftesrn<br>h ekcnnvrfrie ogvns steatiueo h tog<br>gnorts eht fo etubirtta eht si ssenevigroF .evigrof reven nac kaew ehT<br>got h oeuitaets snvgo eirfrvnncke h                                                                                                                                                    |
+|      3      | There is no such thing as an accident. What we call by that name is the effect of some cause which we do not see | e<br>e<br>There<br>There is no such thing as an accident. What we call by that name is the effect of some cause which we do not s<br>Teei osc hn sa ciet htw alb htnm steefc fsm as hc ed o e<br>hr sn uhtiga nacdn.Wa ecl yta aei h feto oecuewihw ontse<br>ees ton od ew hcihw esuac emos fo tceffe eht si eman taht yb llac ew tahW .tnedicca na sa gniht hcus on si erehT<br>estno whiweuceo otef h iea aty lce aW.ndcan agithu ns rh |
+|      4      | Success is the ability to go from failure to failure without losing your enthusiasm                              | c<br>s<br>Succe<br>Success is the ability to go from failure to failure without losing your enthusia<br>Scesi h blt og rmfiuet alr ihu oigyu nhsam<br>ucs steaiiyt ofo alr ofiuewtotlsn oretuis<br>msaisuhtne ruoy gnisol tuohtiw eruliaf ot eruliaf morf og ot ytiliba eht si sseccuS<br>mashn uygio uhi rla teuifmr go tlb h isecS                                                                                                      |
