@@ -203,5 +203,5 @@
 
 | <!-- -->                                                           | <!-- -->                                                   | <!-- -->                                                     |
 |--------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------|
-| [**9.3.1.** Substring 1](problems/problem9.3.1.Capital letters.md) | [**9.3.2.** sWAP cASE](problems/problem9.3.2.sWAP_cASE.md) | [**9.3.3.** Nice shade](problems/problem9.3.3.Nice_shade.md) |
+| [**9.3.1.** Substring 1](problems/problem9.3.1.Capital_letters.md) | [**9.3.2.** sWAP cASE](problems/problem9.3.2.sWAP_cASE.md) | [**9.3.3.** Nice shade](problems/problem9.3.3.Nice_shade.md) |
 | [**9.3.4.** Lower case](problems/problem9.3.4.Lower_case.md)       |                                                            |                                                              |
