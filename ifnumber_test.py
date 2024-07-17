@@ -1,5 +1,6 @@
 import ifnumber
-
+print('')
+print()
 while True:
     num = input('Введи число: ')
     if_number = ifnumber.if_number(num)
