@@ -13,4 +13,5 @@ while True:
     else:
         print('Данные введены некорректно! Нужно ввести число')
     print()
+print()
 print(num)
