@@ -1,6 +1,8 @@
 import ifnumber
+
 print('Последовательность символов')
 print()
+
 while True:
     num = input('Введи целое положительное число: ')
     if_number = ifnumber.if_number(num)
@@ -10,6 +12,7 @@ while True:
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
+
 print()
 for _ in range(num):
     print('*' * 19)

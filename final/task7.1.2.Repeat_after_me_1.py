@@ -1,6 +1,8 @@
 import ifnumber
+
 print('Повторяй за мной 1')
 print()
+
 s = input('Введи строку: ')
 while True:
     num = input('Введи целое положительное число: ')
@@ -11,6 +13,7 @@ while True:
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
+
 print()
 for _ in range(num):
     print(s)
