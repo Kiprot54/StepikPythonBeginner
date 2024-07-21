@@ -14,6 +14,9 @@
 <a href="#h72">7.2. Цикл for: функция range</a><br>
 <a href="#h73">7.3. Частые сценарии</a><br>
 <a href="#h74">7.4. Цикл while</a><br>
+<a href="#h91">9.1. Индексация</a><br>
+<a href="#h92">9.2. Срезы</a><br>
+<a href="#h93">9.3. Методы строк</a><br>
 
 ## 2. Ввод-вывод данных
 
@@ -227,7 +230,6 @@
 |         e | Число e = 2.718281828459045 (константа Эйлера) |
 |        pi | Число π = 3.141592653589793                    |
 
-
 <br>
 
 ## 7. Циклы for и while
@@ -389,6 +391,93 @@ while i < 10:
 <code>break</code> - прерывает ближайший цикл for или while.
 
 <code>continue</code> - позволяет перейти к следующей итерации цикла for или while до завершения всех команд в теле цикла.
+
+<br>
+
+## 9. Строковый тип данных
+
+### <span id="h91">9.1. *Индексация*</span>
+
+#### Индексация строк
+
+<code>s = 'abcdef'</code><br>
+<code>print(s[0]) # 'a'</code><br>
+<code>print(s[1]) # 'b'</code><br>
+<code>print(s[5]) # 'f'</code><br>
+<code>print(s[len(s) - 1]) # 'f'</code><br>
+<code>print(s[-1]) # 'f'</code><br>
+<code>print(s[-3]) # 'd'</code><br>
+<code>print(s[-5]) # 'a'</code>
+
+#### Итерирование строк
+
+<pre><code>
+s = 'abcdef'
+for i in range(len(s)):
+    print(s[i])
+# a
+# b
+# c
+# d
+# e
+# f
+</code></pre>
+
+<pre><code>
+s = 'abcdef'
+for c in s:
+    print(c)
+# a
+# b
+# c
+# d
+# e
+# f
+</code></pre>
+
+### <span id="h92">9.2. *Срезы*</span>
+
+Срез <code>s[n, m, k]</code> создает подстроку строки s.
+
+<code>n</code> - индекс, с которого начинается срез (включительно). Обязательный параметр.<br>
+<code>m</code> - индекс, с которого начинается срез (не включительно). Необязательный параметр.<br>
+<code>k</code> - шаг среза. Необязательный параметр.
+
+*Примеры:*
+<code>s = 'abcdefghij'</code>
+
+| Программный код |       Результат        | Пояснение                                                         |
+|----------------:|:----------------------:|-------------------------------------------------------------------|
+|          s[2:5] |          cde           | строка, состоящая из символов с индексами 2, 3, 4                 |
+|           s[:5] |         abcde          | первые пять символов строки                                       |
+|           s[5:] |         fghij          | строка, состоящая из символов с индексами от 5 до конца           |
+|          s[-2:] |           ij           | последние два символа строки                                      |
+|            s[:] |       abcdefghij       | вся строка целиком                                                |
+|        s[1:7:2] |          bdf           | строка состоящая из каждого второго символа с индексами от 1 до 6 |
+|         s[::-1] |       jihgfedcba       | строка в обратном порядке, так как шаг отрицательный              |
+
+### <span id="h93">9.3. *Методы строк*</span>
+
+Метод — функция, применяемая к объекту. Метод вызывается в виде <имя_объекта>.<имя_метода(параметры)>.
+
+|        Метод | Программный код                                                                                                                                                 | Результат                                                                              | Пояснение                                                                                                                                                                                                                                                                                                           |
+|-------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| capitalize() | <pre><code>s = 'foO BaR BAZ quX'<br>print(s.capitalize())</code></pre>                                                                                          | <pre><code><br>Foo bar baz qux</code></pre>                                            | Метод <code>capitalize()</code> возвращает копию строки <code>s</code>, в которой первый символ имеет верхний регистр, а все остальные символы имеют нижний регистр. Символы, не являющиеся буквами алфавита, остаются неизменными.                                                                                 |
+|      count() | <pre><code>s = 'foo goo moo'<br>print(s.count('oo'))<br>print(s.count('oo', 0, 8))</code></pre>                                                                 | <pre><code><br>3<br>2</code></pre>                                                     | Метод <code>count(\<sub>, \<start>, \<end>)</code> считает количество непересекающихся вхождений подстроки <code>\<sub></code> в исходную строку <code>s</code>.                                                                                                                                                    |
+|   endswith() | <pre><code>s = 'foobar'<br>print(s.endswith('bar'))<br>print(s.endswith('baz'))</code></pre>                                                                    | <pre><code><br>True<br>False</code></pre>                                              | Метод <code>endswith(\<suffix>, \<start>, \<end>)</code> определяет, оканчивается ли исходная строка s подстрокой <code>\<suffix></code>. Метод возвращает значение <code>True</code>, если исходная строка оканчивается на подстроку <code>\<suffix></code>, или <code>False</code> в противном случае.            |
+|       find() | <pre><code>s = 'foo bar foo baz foo qux'<br>print(s.find('foo'))<br>print(s.find('bar'))<br>print(s.find('qu'))<br>print(s.find('python'))</code></pre>         | <pre><code><br>0<br>4<br>20<br>-1</code></pre>                                         | Метод <code>find(\<sub>, \<start>, \<end>)</code> находит индекс первого вхождения подстроки <code>\<sub></code> в исходной строке <code>s</code>. Если строка <code>s</code> не содержит подстроки <code>\<sub></code>, то метод возвращает значение <code>-1</code>.                                              |
+|      index() | <pre><code>s = 'foo bar foo baz foo qux'<br>print(s.index('foo'))<br>print(s.index('bar'))<br>print(s.index('qu'))<br>print(s.index('python'))</code></pre>     | <pre><code><br>0<br>4<br>20<br>ValueError: substring not found</code></pre>            | Метод <code>index(\<sub>, \<start>, \<end>)</code> идентичен методу <code>find(\<sub>, \<start>, \<end>)</code>, за тем исключением, что он вызывает ошибку <code>ValueError: substring not found</code>во время выполнения программы, если подстрока <code>\<sub></code> не найдена.                               |
+|      lower() | <pre><code>s = 'FOO Bar 123 baz qUX'<br>print(s.lower())</code></pre>                                                                                           | <pre><code><br>foo bar 123 baz qux</code></pre>                                        | Метод <code>lower()</code> возвращает копию строки <code>s</code>, в которой все символы имеют нижний регистр.                                                                                                                                                                                                      |
+|     lstrip() | <pre><code>s = '     foo bar foo baz foo qux      '<br>print(s.lstrip())</code></pre>                                                                           | <pre><code><br>foo bar foo baz foo qux⎵ ⎵ ⎵ ⎵ ⎵ ⎵</pre>                                | Метод <code>lstrip()</code> возвращает копию строки <code>s</code>, у которой удалены все пробелы, стоящие в начале строки. Метод <code>lstrip()</code> может принимать на вход опциональный аргумент <code>\<chars></code> – строку, которая определяет набор символов для удаления.                               |
+|    replace() | <pre><code>s = 'foo bar foo baz foo qux'<br>print(s.replace('foo', 'grault'))<br>print(s.replace('foo', 'grault', 2))</pre>                                     | <pre><code><br>grault bar grault baz grault qux<br>grault bar grault baz foo qux</pre> | Метод <code>replace(\<old>, \<new>)</code> возвращает копию строки <code>s</code> со всеми вхождениями подстроки <code>\<old></code>, замененными на <code>\<new></code>. Метод <code>replace()</code> может принимать опциональный третий аргумент <code>\<count></code>, который определяет количество замен.     |
+|      rfind() | <pre><code>s = 'foo bar foo baz foo qux'<br>print(s.rfind('foo'))<br>print(s.rfind('bar'))<br>print(s.rfind('qu'))<br>print(s.rfind('python'))</code></pre>     | <pre><code><br>0<br>4<br>20<br>ValueError: substring not found</code></pre>            | Метод <code>rfind(\<sub>, \<start>, \<end>)</code> идентичен методу <code>find(\<sub>, \<start>, \<end>)</code>, за тем исключением, что он ищет первое вхождение подстроки <code>\<sub></code>, начиная с конца строки <code>s</code>.                                                                             |
+|     rindex() | <pre><code>s = 'foo bar foo baz foo qux'<br>print(s.rindex('foo'))<br>rindex(s.rfind('bar'))<br>print(s.rindex('qu'))<br>print(s.rindex('python'))</code></pre> | <pre><code><br>0<br>4<br>20<br>-1</code></pre>                                         | Метод <code>rindex(\<sub>, \<start>, \<end>)</code> идентичен методу <code>index(\<sub>, \<start>, \<end>)</code>, за тем исключением, что он ищет первое вхождение подстроки <code>\<sub></code>, начиная с конца строки <code>s</code>.                                                                           |
+|     rstrip() | <pre><code>s = '     foo bar foo baz foo qux      '<br>print(s.rstrip())</code></pre>                                                                           | <pre><code><br>⎵ ⎵ ⎵ ⎵ ⎵ ⎵foo bar foo baz foo qux</pre>                                | Метод <code>rstrip()</code> возвращает копию строки <code>s</code>, у которой удалены все пробелы, стоящие в конце строки.  Метод <code>rstrip()</code> может принимать на вход опциональный аргумент <code>\<chars></code> – строку, которая определяет набор символов для удаления.                               |
+| startswith() | <pre><code>s = 'foobar'<br>print(s.startswith('foo'))<br>print(s.startswith('baz'))</code></pre>                                                                | <pre><code><br>True<br>False</code></pre>                                              | Метод <code>startswith(\<suffix>, \<start>, \<end>)</code> определяет, начинается ли исходная строка <code>s</code> подстрокой <code>\<suffix></code>. Если исходная строка начинается с подстроки <code>\<suffix></code>, метод возвращает значение <code>True</code>, а если нет, то значение <code>False</code>. |
+|      strip() | <pre><code>s = '     foo bar foo baz foo qux      '<br>print(s.strip())</code></pre>                                                                            | <pre><code><br>foo bar foo baz foo qux</pre>                                           | Метод <code>strip()</code> возвращает копию строки <code>s</code>, у которой удалены все пробелы, стоящие в начале и конце строки. Метод <code>strip()</code> может принимать на вход опциональный аргумент <code>\<chars></code> – строку, которая определяет набор символов для удаления.                         |
+|   swapcase() | <pre><code>s = 'FOO Bar 123 baz qUX'<br>print(s.swapcase())</code></pre>                                                                                        | <pre><code><br>foo bAR 123 BAZ Qux</code></pre>                                        | Метод <code>swapcase()</code> возвращает копию строки <code>s</code>, в которой все символы, имеющие верхний регистр, преобразуются в символы нижнего регистра и наоборот.                                                                                                                                          |
+|      title() | <pre><code>s = "what's happened to ted's IBM stock?"<br>print(s.title())</code></pre>                                                                           | <pre><code><br>What'S Happened To Ted'S Ibm Stock?</code></pre>                        | Метод <code>title()</code> возвращает копию строки <code>s</code>, в которой первый символ каждого слова переводится в верхний регистр.                                                                                                                                                                             |
+|      upper() | <pre><code>s = 'FOO Bar 123 baz qUX'<br>print(s.upper())</code></pre>                                                                                           | <pre><code><br>FOO BAR 123 BAZ QUX</code></pre>                                        | Метод <code>upper()</code> возвращает копию строки <code>s</code>, в которой все символы имеют верхний регистр.                                                                                                                                                                                                     |
 
 <br>
 
