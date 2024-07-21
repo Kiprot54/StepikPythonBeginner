@@ -234,7 +234,8 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                           | <!-- -->                                                   | <!-- -->                                                     |
-|--------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------|
-| [**9.3.1.** Substring 1](problems/problem9.3.1.Capital_letters.md) | [**9.3.2.** sWAP cASE](problems/problem9.3.2.sWAP_cASE.md) | [**9.3.3.** Nice shade](problems/problem9.3.3.Nice_shade.md) |
-| [**9.3.4.** Lower case](problems/problem9.3.4.Lower_case.md)       |                                                            |                                                              |
+| <!-- -->                                                                         | <!-- -->                                                                     | <!-- -->                                                                            |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [**9.4.1.** Number of words](problems/problem9.4.1.Number_of_words.md)           | [**9.4.2.** Minute of Genetics](problems/problem9.4.2.Minute_of_Genetics.md) | [**9.4.3.** Very strange things](problems/problem9.4.3.Very_strange_things.md)      |
+| [**9.4.4.** Number of digits](problems/problem9.4.4.Number_of_digits.md)         | [**9.4.5.** .com or .ru.md](problems/problem9.4.5..com_or_.ru.md)            | [**9.4.6.** Most frequent symbol.md](problems/problem9.4.6.Most_frequent_symbol.md) |
+| [**9.4.7.** First and last entry](problems/problem9.4.7.First_and_last_entry.md) | [**9.4.8.** Removing a fragment](problems/problem9.4.8.Removing_a_fragment)  |                                                                                     |
