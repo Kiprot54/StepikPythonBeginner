@@ -239,3 +239,11 @@
 | [**9.4.1.** Number of words](problems/problem9.4.1.Number_of_words.md)           | [**9.4.2.** Minute of Genetics](problems/problem9.4.2.Minute_of_Genetics.md) | [**9.4.3.** Very strange things](problems/problem9.4.3.Very_strange_things.md)      |
 | [**9.4.4.** Number of digits](problems/problem9.4.4.Number_of_digits.md)         | [**9.4.5.** .com or .ru.md](problems/problem9.4.5..com_or_.ru.md)            | [**9.4.6.** Most frequent symbol.md](problems/problem9.4.6.Most_frequent_symbol.md) |
 | [**9.4.7.** First and last entry](problems/problem9.4.7.First_and_last_entry.md) | [**9.4.8.** Removing a fragment](problems/problem9.4.8.Removing_a_fragment)  |                                                                                     |
+
+### 9.5. *Методы строк. Часть 3*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                         | <!-- -->                                                                    | <!-- -->                                                                            |
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [**9.5.1.** Bad comments](problems/problem9.5.1.Bad_comments.md)                 | [**9.5.2.** Car number](problems/problem9.5.2.Car_number.md)                | [**9.5.3.** Check the nickname](problems/problem9.5.3.Check_the_nickname.md)        |
