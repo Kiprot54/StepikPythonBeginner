@@ -179,10 +179,11 @@
 
 ### 7.8. *Вложенные циклы. Часть 1*
 
-| <!-- -->                                                             | <!-- -->                                                                   | <!-- -->                                                   |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------|
-| [**7.8.1.** Table 1](problems/problem7.8.1.Table_1.md)               | [**7.8.2.** Table 2](problems/problem7.8.2.Table_2.md)                     | [**7.8.3.** Table 3](problems/problem7.8.3.Table_3.md)     |
-| [**7.8.4.** Star Triangle**](problems/problem7.8.4.Star_Triangle.md) | [**7.8.5.** Number Triangle 1](problems/problem7.8.5.Number_Triangle_1.md) | [**7.8.6.** 12 months](problems/problem7.8.6.12_months.md) |
+| <!-- -->                                                               | <!-- -->                                                                                                               | <!-- -->                                                   |
+|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [**7.8.1.** Table 1](problems/problem7.8.1.Table_1.md)                 | [**7.8.2.** Table 2](problems/problem7.8.2.Table_2.md)                                                                 | [**7.8.3.** Table 3](problems/problem7.8.3.Table_3.md)     |
+| [**7.8.4.** Star Triangle**](problems/problem7.8.4.Star_Triangle.md)   | [**7.8.5.** Number Triangle 1](problems/problem7.8.5.Number_Triangle_1.md)                                             | [**7.8.6.** 12 months](problems/problem7.8.6.12_months.md) |
+| [**7.8.7.** Ancient problem](problems/problem7.8.7.Ancient_problem.md) | [**7.8.8.** Euler's conjecture on the sum of powers**](problems/problem7.8.8.Euler_conjecture_on_the_sum_of_powers.md) |                                                            |
 
 ### 7.9. *Вложенные циклы. Часть 2*
 
@@ -247,3 +248,12 @@
 | <!-- -->                                                                         | <!-- -->                                                                    | <!-- -->                                                                            |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [**9.5.1.** Bad comments](problems/problem9.5.1.Bad_comments.md)                 | [**9.5.2.** Car number](problems/problem9.5.2.Car_number.md)                | [**9.5.3.** Check the nickname](problems/problem9.5.3.Check_the_nickname.md)        |
+
+### 9.6. *Форматирование строк*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                                       | <!-- -->                                                                                | <!-- -->                                                 |
+|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [**9.6.1.** Method format](problems/problem9.6.1.Method_format.md)                             | [**9.6.2.** f-string](problems/problem9.6.2.f_string.md)                                | [**9.6.3.** Exchange](problems/problem9.6.3.Exchange.md) |
+| [**9.6.4.** Sum of cubes vs Cube of sum](problems/problem9.6.4.Sum_of_cubes_vs_Cube_of_sum.md) | [**9.6.5.** (Not) Active weight loss*](problems/problem9.6.5.Not_Active_weight_loss.md) |                                                          |
