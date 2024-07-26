@@ -17,6 +17,7 @@
 <a href="#h91">9.1. Индексация</a><br>
 <a href="#h92">9.2. Срезы</a><br>
 <a href="#h93">9.3. Методы строк</a><br>
+<a href="#h96">9.6. Форматирование строк</a><br>
 
 ## 2. Ввод-вывод данных
 
@@ -484,6 +485,62 @@ for c in s:
 |   swapcase() | <pre><code>s = 'FOO Bar 123 baz qUX'<br>print(s.swapcase())</code></pre>                                                                                                                                                    | <pre><code><br>foo bAR 123 BAZ Qux</code></pre>                                        | Метод <code>swapcase()</code> возвращает копию строки <code>s</code>, в которой все символы, имеющие верхний регистр, преобразуются в символы нижнего регистра и наоборот.                                                                                                                                          |
 |      title() | <pre><code>s = "what's happened to ted's IBM stock?"<br>print(s.title())</code></pre>                                                                                                                                       | <pre><code><br>What'S Happened To Ted'S Ibm Stock?</code></pre>                        | Метод <code>title()</code> возвращает копию строки <code>s</code>, в которой первый символ каждого слова переводится в верхний регистр.                                                                                                                                                                             |
 |      upper() | <pre><code>s = 'FOO Bar 123 baz qUX'<br>print(s.upper())</code></pre>                                                                                                                                                       | <pre><code><br>FOO BAR 123 BAZ QUX</code></pre>                                        | Метод <code>upper()</code> возвращает копию строки <code>s</code>, в которой все символы имеют верхний регистр.                                                                                                                                                                                                     |
+
+### <span id="h96">9.6. *Форматирование строк*</span>
+
+#### Метод format()
+
+*Примеры:*
+
+<pre><code>
+birth_year = 1992
+text = 'My name is Timur, I was born in {}'.format(birth_year)
+
+print(text)  # <em>My name is Timur, I was born in 1992.</em>
+</code></pre>
+
+<pre><code>
+birth_year = 1992
+name = 'Timur'
+profession = 'math teacher'
+text = 'My name is {}, I was born in {}, I work as a {}.'.format(name, birth_year, profession)
+
+print(text)  # <em>My name is Timur, I was born in 1992, I work as a math teacher.</em>
+</code></pre>
+
+<pre><code>
+birth_year = 1992
+name = 'Timur'
+profession = 'math teacher'
+text = 'My name is {2}, I was born in {1}, I work as a {0}.'.format(profession, birth_year, name)
+
+print(text)  # <em>My name is Timur, I was born in 1992, I work as a math teacher.</em>
+</code></pre>
+
+<pre><code>
+name = 'Timur'
+city = 'Moscow'
+text1 = 'My name is {0}-{0}-{0}!'.format(name, city)
+text2 = '{1} is my city and {0} is my name!'.format(name, city)
+
+print(text1)  # <em>My name is Timur-Timur-Timur!</em>
+print(text2)  # <em>Moscow is my city and Timur is my name!</em>
+</code></pre>
+
+#### f-строки
+
+*Пример:*
+
+<pre><code>
+first_name = 'Taylor'
+last_name = 'Swift'
+country = 'USA'
+birth_date = '1989/12/13'
+birth_place = 'West Reading, Pennsylvania'
+text = f'{first_name} {last_name} is a very famous singer from the {country}. She was born on {birth_date} in {birth_place}.'
+
+print(text)  # <em>Taylor Swift is a very famous singer from the USA. She was born on 1989/12/13 in West Reading, Pennsylvania.</em>
+</code></pre>
 
 <br>
 
