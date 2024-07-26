@@ -28,8 +28,5 @@ while True:
     else:
         print('Первое число должно быть не больше второго')
 
-if m <= n:
-    for i in range(m, n + 1):
-        print(i)
-else:
-    print()
+for i in range(m, n + 1):
+    print(i)

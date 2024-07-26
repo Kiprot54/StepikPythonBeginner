@@ -1,6 +1,6 @@
 import ifnumber
 
-print('Звёздный треугольник')
+print('Популяция')
 print()
 
 while True:
