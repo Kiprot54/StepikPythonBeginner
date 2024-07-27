@@ -1,6 +1,6 @@
 import ifnumber
 
-print('')
+print('Сумма чисел')
 print()
 
 while True:
