@@ -257,3 +257,12 @@
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [**9.6.1.** Method format](problems/problem9.6.1.Method_format.md)                             | [**9.6.2.** f-string](problems/problem9.6.2.f_string.md)                                | [**9.6.3.** Exchange](problems/problem9.6.3.Exchange.md) |
 | [**9.6.4.** Sum of cubes vs Cube of sum](problems/problem9.6.4.Sum_of_cubes_vs_Cube_of_sum.md) | [**9.6.5.** (Not) Active weight loss*](problems/problem9.6.5.Not_Active_weight_loss.md) |                                                          |
+
+### 9.7. *Строки в памяти компьютера, таблица символов Unicode*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                                       | <!-- -->                                                                                | <!-- -->                                                 |
+|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [**9.7.1.** Characters in range](problems/problem9.7.1.Characters_in_range.md)                 | [**9.7.2.** Simple cipher](problems/problem9.7.2.Simple_cipher.md)                      | [**9.6.3.** Exchange](problems/problem9.6.3.Exchange.md) |
+| [**9.6.4.** Sum of cubes vs Cube of sum](problems/problem9.6.4.Sum_of_cubes_vs_Cube_of_sum.md) | [**9.6.5.** (Not) Active weight loss*](problems/problem9.6.5.Not_Active_weight_loss.md) |                                                          |
