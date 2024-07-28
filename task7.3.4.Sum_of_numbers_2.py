@@ -6,7 +6,7 @@ print()
 while True:
     n = input('Введи целое положительное число: ')
     if_number = ifnumber.if_number(n)
-    if if_number == 'int':
+    if if_number == 'int' and int(n) > 0:
         n = int(n)
         print()
         break
