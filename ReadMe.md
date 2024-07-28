@@ -131,7 +131,7 @@
 | <!-- -->                                                                             | <!-- -->                                                                   | <!-- -->                                                                             |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [**7.1.1.** Python is awesome](problems/problem7.1.1.Python_is_awesome.md)           | [**7.1.2.** Repeat after me 1](problems/problem7.1.2.Repeat_after_me_1.md) | [**7.1.3.** Sequence of characters](problems/problem7.1.3.Sequence_of_characters.md) |
-| [**7.1.4.** Star Rectangle](problems/problem7.1.4.Star_Rectangle.md)                 | [**7.1.5.** Repeat after me 2](problems/problem7.1.5.Repeat_after_me_2.md) | [**7.1.6.** square of the number](problems/problem7.1.6.Square_of_the_number.md)     |
+| [**7.1.4.** Star Rectangle](problems/problem7.1.4.Star_Rectangle.md)                 | [**7.1.5.** Repeat after me 2](problems/problem7.1.5.Repeat_after_me_2.md) | [**7.1.6.** Square of the number](problems/problem7.1.6.Square_of_the_number.md)     |
 | [**7.1.7.** Star Triangle](problems/problem7.1.7.Star_triangle.md)                   | [**7.1.8.** Population](problems/problem7.1.8.Population.md)               |                                                                                      |
 
 ### 7.2. *Цикл for: функция range*
