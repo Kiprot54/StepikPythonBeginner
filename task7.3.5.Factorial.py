@@ -16,4 +16,4 @@ while True:
 total = 1
 for i in range(1, n + 1):
     total *= i
-print(f'{total}')
+print(f'{n}! = {total}')
