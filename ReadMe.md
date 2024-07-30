@@ -265,3 +265,12 @@
 | <!-- -->                                                                                       | <!-- -->                                                                                | <!-- -->                                                           |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [**9.7.1.** Characters in range](problems/problem9.7.1.Characters_in_range.md)                 | [**9.7.2.** Simple cipher](problems/problem9.7.2.Simple_cipher.md)                      | [**9.7.3.** Caesar cipher](problems/problem9.7.3.Caesar_cipher.md) |
+
+## 10. Итоговая работа по теме "Строки"
+
+| <!-- -->                                                                           | <!-- -->                                                                             | <!-- -->                                                                           |
+|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [**10.2.1.** String length](problems/problem10.2.1.String_length.md)               | [**10.2.2.** Fourth symbol](problems/problem10.2.2.Fourth_symbol.md)                 | [**10.2.3.** String range](problems/problem10.2.3.String_range.md)                 |
+| [**10.2.4.** No gaps at the edges](problems/problem10.2.4.No_gaps_at_the_edges.md) | [**10.2.5.** Caps lock](problems/problem10.2.5.Caps_lock.md)                         | [**10.2.6.** Replacement](problems/problem10.2.6.Replacement.md)                   |
+| [**10.2.7.** Every third](problems/problem10.2.7.Every_third.md)                   | [**10.2.8.** Replace me completely](problems/problem10.2.8.Replace_me_completely.md) | [**10.2.9.** Delete me completely](problems/problem10.2.9.Delete_me_completely.md) |
+| [**10.2.10.** Second Entry](problems/problem10.2.10.Second_Entry.md)               | [**10.2.11.** Coup](problems/problem10.2.11.Coup.md)                                 |                                                                                    |
