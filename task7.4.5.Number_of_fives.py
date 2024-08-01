@@ -20,4 +20,4 @@ while True:
             counter += 1
     else:
         break
-print(counter)
+print(f'Среди введённых чисел {counter} пятёрок')

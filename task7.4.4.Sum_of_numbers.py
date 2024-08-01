@@ -17,4 +17,4 @@ while True:
         total += n
     else:
         break
-print(total)
+print(f'Сумма введённых чисел равна {total}')
