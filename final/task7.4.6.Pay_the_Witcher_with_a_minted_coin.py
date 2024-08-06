@@ -5,7 +5,7 @@ print()
 
 
 while True:
-    n = input('Введи, сколько нужно заплатить ведьмаку: ')
+    n = input('Какую сумму нужно заплатить ведьмаку? ')
     if_number = ifnumber.if_number(n)
     if if_number == 'int' and int(n) > 0:
         n = int(n)
@@ -28,6 +28,4 @@ while n != 0:
     elif n >= 1:
         n -= 1
         counter += 1
-print(f'Нужно отдать ведьмаку минимум {counter} чеканных монет')
-
-
+print(f'Ведьмаку нужно отдать минимум {counter} чеканных монет')

@@ -2,6 +2,7 @@ import ifnumber
 
 print('Сумма чисел')
 print()
+
 total = 0
 while True:
     while True:
@@ -18,3 +19,5 @@ while True:
     else:
         break
 print(f'Сумма введённых чисел равна {total}')
+
+# какое число?

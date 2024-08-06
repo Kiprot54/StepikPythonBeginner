@@ -1,5 +1,6 @@
 print('Количество членов')
 print()
+
 counter = 0
 while True:
     s = input('Введи строку: ')

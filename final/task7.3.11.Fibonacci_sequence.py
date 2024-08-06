@@ -4,7 +4,7 @@ print('Последовательность Фибоначчи')
 print()
 
 while True:
-    n = input('Введи целое положительное число: ')
+    n = input('Сколько чисел последовательности Фибоначчи нужно вывести? ')
     if_number = ifnumber.if_number(n)
     if if_number == 'int' and int(n) > 0:
         n = int(n)
