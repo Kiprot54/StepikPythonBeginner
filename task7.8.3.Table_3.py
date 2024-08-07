@@ -1,6 +1,6 @@
 import ifnumber
 
-print('Таблица-2')
+print('Таблица-3')
 print()
 
 while True:
