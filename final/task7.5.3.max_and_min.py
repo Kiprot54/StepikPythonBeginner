@@ -8,11 +8,12 @@ while True:
     if_number = ifnumber.if_number(n)
     if if_number == 'int' and int(n) >= 10:
         n = int(n)
-        print()
         break
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число не меньше 10')
-    print()
+        print()
+
+print()
 n1 = n
 m = n % 10
 max_n = m
