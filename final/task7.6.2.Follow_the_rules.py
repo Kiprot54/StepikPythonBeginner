@@ -1,6 +1,6 @@
 import ifnumber
 
-print('')
+print('Следуй правилам')
 print()
 
 while True:
