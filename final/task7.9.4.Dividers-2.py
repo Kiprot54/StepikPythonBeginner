@@ -1,6 +1,6 @@
 import ifnumber
 
-print('Делители-1')
+print('Делители-2')
 print()
 
 while True:

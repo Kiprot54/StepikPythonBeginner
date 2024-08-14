@@ -39,7 +39,7 @@ for i in range(a, b + 1):
     if total > max_total:
         max_total = total
         c = i
-print(f'Из отрезка ({a}, {b}) у числа {c} максимальная сумма делителей. Она равна {max_total}')
+print(f'Из отрезка [{a}, {b}] у числа {c} максимальная сумма делителей. Она равна {max_total}')
 
 
 
