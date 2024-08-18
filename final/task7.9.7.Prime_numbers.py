@@ -1,6 +1,6 @@
 import ifnumber
 
-print('Сумма факториалов')
+print('Простые числа')
 print()
 
 while True:
