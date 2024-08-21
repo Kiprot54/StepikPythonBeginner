@@ -17,4 +17,4 @@ for c in s.lower():
         counter_vowels_symbols += 1
     elif c in consonants_symbols:
         counter_consonants_symbols += 1
-print(f'В строке "{s}" {counter_vowels_symbols} русских гласных букв и {counter_consonants_symbols} русских согласных букв.')
+print(f'В строке "{s}" {counter_vowels_symbols} гласных букв и {counter_consonants_symbols} согласных букв русского языка.')
