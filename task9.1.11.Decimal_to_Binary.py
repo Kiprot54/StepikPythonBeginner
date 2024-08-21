@@ -1,6 +1,6 @@
 import ifnumber
 
-print('')
+print('Decimal to Binary')
 print()
 
 while True:
