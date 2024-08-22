@@ -19,4 +19,4 @@ while n != 0:
     m = n % 2
     n = n // 2
     binary_number = str(m) + binary_number
-print(f'Число {n1} в двоичной системе счисления равно {binary_number}')
+print(f'Число {n1} в двоичной системе счисления: {binary_number}')
