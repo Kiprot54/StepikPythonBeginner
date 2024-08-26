@@ -17,6 +17,7 @@ s_even_index = s[::2]
 s_odd_index = s[1::2]
 s_revert = s[::-1]
 s_revert_odd = s[-1::-2]
+
 print(f'Третий символ строки "{s}": "{s_3}"')
 print(f'Предпоследний символ строки "{s}": "{s_pre_last}"')
 print(f'Первые пять символов строки "{s}": "{s_first_5}"')

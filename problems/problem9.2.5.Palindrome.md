@@ -19,3 +19,6 @@
 |      7      | abcdefggfedcba        | YES             |
 |      8      | aaaAAAaaaa            | YES             |
 |      9      | abcdba                | NO              |
+|     10      | abcdba abcdba         | Не слово        |
+|     11      | ⎵ ⎵ ⎵ ⎵               | Пустая строка   |
+|     12      | ⎵ ⎵ ⎵ раДар ⎵ ⎵       | YES             |

@@ -18,3 +18,4 @@
 |      6      | Hi             | iH              |
 |      7      | asdfghj        | ghjasdf         |
 |      8      | asdfghjzxc     | hjzxcasdfg      |
+|      9      |                | Пустая строка   |
