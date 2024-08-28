@@ -3,7 +3,7 @@ print()
 
 while True:
     s = input('Введи строку: ')
-    if len(s.strip()) == 0:
+    if len(s) == 0:
         print('Строка не должна быть пустой')
         print()
     else:
