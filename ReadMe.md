@@ -274,3 +274,11 @@
 | [**10.2.4.** No gaps at the edges](problems/problem10.2.4.No_gaps_at_the_edges.md) | [**10.2.5.** Caps lock](problems/problem10.2.5.Caps_lock.md)                         | [**10.2.6.** Replacement](problems/problem10.2.6.Replacement.md)                   |
 | [**10.2.7.** Every third](problems/problem10.2.7.Every_third.md)                   | [**10.2.8.** Replace me completely](problems/problem10.2.8.Replace_me_completely.md) | [**10.2.9.** Delete me completely](problems/problem10.2.9.Delete_me_completely.md) |
 | [**10.2.10.** Second Entry](problems/problem10.2.10.Second_Entry.md)               | [**10.2.11.** Coup](problems/problem10.2.11.Coup.md)                                 |                                                                                    |
+
+## 11. Списки
+
+### 11.1. *Введение в списки*
+
+| <!-- -->                                                                 | <!-- -->                                                                 | <!-- --> |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------|----------|
+| [**11.1.1.** List of numbers](problems/problem11.1.1.List_of_numbers.md) | [**11.1.2.** List of letters](problems/problem11.1.2.List_of_letters.md) |          |
