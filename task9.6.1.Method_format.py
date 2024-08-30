@@ -1,3 +1,6 @@
+print('Метод format')
+print()
+
 s1 = '2010'
 s2 = '10k'
 s3 = 'Bitcoin'
