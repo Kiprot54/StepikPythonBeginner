@@ -282,3 +282,11 @@
 | <!-- -->                                                                 | <!-- -->                                                                 | <!-- --> |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------|----------|
 | [**11.1.1.** List of numbers](problems/problem11.1.1.List_of_numbers.md) | [**11.1.2.** List of letters](problems/problem11.1.2.List_of_letters.md) |          |
+
+### 11.2. *Основы работы со списками*
+
+| <!-- -->                                                                               | <!-- -->                                                                                                   | <!-- -->                                                                           |
+|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [**11.2.1.** 17th list item](problems/problem11.2.1.17th_list_item.md)                 | [**11.2.2.** Last_list_item](problems/problem11.2.2.Last_list_item.md)                                     | [**11.2.3.** First_six_list_items](problems/problem11.2.3.First_six_list_items.md) |
+| [**11.2.4.** Min and max list items](problems/problem11.2.4.Min_and_max_list_items.md) | [**11.2.5.** Arithmetic mean of list elements](problems/problem11.2.5.Arithmetic_mean_of_list_elements.md) | [**11.2.6.** Replacing list items](problems/problem11.2.6.Replacing_list_items.md) |
+| [**11.2.7.** Reverse list](problems/problem11.2.7.Reverse_list.md)                     | [**11.2.8.** List concatenation](problems/problem11.2.8.List_concatenation.md)                             |                                                                                    |
