@@ -1,7 +1,6 @@
 import ifnumber
 print('Курсы валют')
 print()
-date_num = ''
 while True:
     date = input('Введи дату в формате ДД-ММ-ГГГГ: ')
     if len(date) == 10:
