@@ -290,3 +290,11 @@
 | [**11.2.1.** 17th list item](problems/problem11.2.1.17th_list_item.md)                 | [**11.2.2.** Last_list_item](problems/problem11.2.2.Last_list_item.md)                                     | [**11.2.3.** First_six_list_items](problems/problem11.2.3.First_six_list_items.md) |
 | [**11.2.4.** Min and max list items](problems/problem11.2.4.Min_and_max_list_items.md) | [**11.2.5.** Arithmetic mean of list elements](problems/problem11.2.5.Arithmetic_mean_of_list_elements.md) | [**11.2.6.** Replacing list items](problems/problem11.2.6.Replacing_list_items.md) |
 | [**11.2.7.** Reverse list](problems/problem11.2.7.Reverse_list.md)                     | [**11.2.8.** List concatenation](problems/problem11.2.8.List_concatenation.md)                             |                                                                                    |
+
+### 11.3. *Методы списков. Часть 1*
+
+| <!-- -->                                                                       | <!-- -->                                                                                  | <!-- -->                                                                           |
+|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [**11.3.1.** All at once 1*](problems/problem11.3.1.All_at_once_1.md)          | [**11.3.2.** List of strings](problems/problem11.3.2.List_of_strings.md)                  | [**11.3.3.** Alphabet](problems/problem11.3.3.Alphabet.md)                         |
+| [**11.3.4.** List of cubes](problems/problem11.3.4.List_of_cubes.md)           | [**11.3.5.** List of divisors](problems/problem11.3.5.List_of_divisors.md)                | [**11.3.6.** Sum of two](problems/problem11.3.6.Sum_of_two.md)                     |
+| [**11.3.7.** Remove odd indices](problems/problem11.3.7.Remove_odd_indices.md) | [**11.3.8.** k-th letter of the word*](problems/problem11.3.8.k-th_letter_of_the_word.md) | [**11.3.9.** Symbols of all lines](problems/problem11.3.9.Symbols_of_all_lines.md) |
