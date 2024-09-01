@@ -19,6 +19,10 @@
 <a href="#h93">9.3. Методы строк</a><br>
 <a href="#h96">9.6. Форматирование строк</a><br>
 <a href="#h97">9.7. Строки в памяти компьютера, таблица символов Unicode</a><br>
+<a href="#h111">11.1. Введение в списки</a><br>
+<a href="#h112">11.2. Основы работы со списками</a><br>
+<a href="#h113">11.3. Методы списков</a><br>
+<a href="#h114">11.4. Вывод элементов списка</a><br>
 
 ## 2. Ввод-вывод данных
 
@@ -248,8 +252,7 @@
 *Пример:*
 
 Код:
-<pre><code>
-for i in range(10):
+<pre><code>for i in range(10):
     print(i)
 </code></pre>
 
@@ -273,45 +276,42 @@ for i in range(10):
 
 #### Подсчет количества
 
-<pre><code>
-    counter = 0
-    for _ in range(10):
-        num = int(input())
-        if num > 10:
-            counter = counter + 1
-    
-    print('Было введено', counter, 'чисел, больших 10.')
+<pre><code>counter = 0
+for _ in range(10):
+    num = int(input())
+    if num > 10:
+        counter = counter + 1
+
+print('Было введено', counter, 'чисел, больших 10.')
 </code></pre>
 
 #### Вычисление суммы
 
-<pre><code>
-    total = 0
-    for _ in range(10):
-        num = int(input())
-        if num > 10:
-            total = total + num
-    
-    print('Сумма чисел больших 10 равна',  total)
+<pre><code>total = 0
+for _ in range(10):
+    num = int(input())
+    if num > 10:
+        total = total + num
+
+print('Сумма чисел больших 10 равна',  total)
 </code></pre>
 
 #### Вычисление произведения
 
-<pre><code>
-    total = 0
-    for _ in range(10):
-        num = int(input())
-        if num > 10:
-            total = total * num
-    
-    print('Произведение чисел больших 10 равно',  total)
+<pre><code>total = 0
+for _ in range(10):
+    num = int(input())
+    if num > 10:
+        total = total * num
+
+print('Произведение чисел больших 10 равно',  total)
 </code></pre>
 
 #### Обмен значений переменных
 
 Универсальный способ:
-<pre><code>
-temp = x
+
+<pre><code>temp = x
 x = y
 y = temp
 </code></pre>
@@ -322,8 +322,7 @@ y = temp
 
 #### Сигнальные метки
 
-<pre><code>
-num = int(input())
+<pre><code>num = int(input())
 flag = True
 
 for i in range(2, num):
@@ -340,8 +339,7 @@ else:
 
 #### Максимум
 
-<pre><code>
-largest = 0
+<pre><code>largest = 0
 for _ in range(10):
     num = int(input())    
     if num > largest:
@@ -352,8 +350,7 @@ print('Наибольшее число равно', largest)
 
 #### Минимум
 
-<pre><code>
-smallest = 0
+<pre><code>smallest = 0
 for _ in range(10):
     num = int(input())    
     if num < smallest:
@@ -379,8 +376,7 @@ print('Наименьшее число равно', smallest)
 
 Код:
 
-<pre><code>
-i = 0
+<pre><code>i = 0
 while i < 10:
     print(i)
     i += 1
@@ -413,8 +409,7 @@ while i < 10:
 
 #### Итерирование строк
 
-<pre><code>
-s = 'abcdef'
+<pre><code>s = 'abcdef'
 for i in range(len(s)):
     print(s[i])
 # a
@@ -425,8 +420,7 @@ for i in range(len(s)):
 # f
 </code></pre>
 
-<pre><code>
-s = 'abcdef'
+<pre><code>s = 'abcdef'
 for c in s:
     print(c)
 # a
@@ -493,15 +487,13 @@ for c in s:
 
 *Примеры:*
 
-<pre><code>
-birth_year = 1992
+<pre><code>birth_year = 1992
 text = 'My name is Timur, I was born in {}'.format(birth_year)
 
 print(text)  # <em>My name is Timur, I was born in 1992.</em>
 </code></pre>
 
-<pre><code>
-birth_year = 1992
+<pre><code>birth_year = 1992
 name = 'Timur'
 profession = 'math teacher'
 text = 'My name is {}, I was born in {}, I work as a {}.'.format(name, birth_year, profession)
@@ -509,8 +501,7 @@ text = 'My name is {}, I was born in {}, I work as a {}.'.format(name, birth_yea
 print(text)  # <em>My name is Timur, I was born in 1992, I work as a math teacher.</em>
 </code></pre>
 
-<pre><code>
-birth_year = 1992
+<pre><code>birth_year = 1992
 name = 'Timur'
 profession = 'math teacher'
 text = 'My name is {2}, I was born in {1}, I work as a {0}.'.format(profession, birth_year, name)
@@ -518,8 +509,7 @@ text = 'My name is {2}, I was born in {1}, I work as a {0}.'.format(profession, 
 print(text)  # <em>My name is Timur, I was born in 1992, I work as a math teacher.</em>
 </code></pre>
 
-<pre><code>
-name = 'Timur'
+<pre><code>name = 'Timur'
 city = 'Moscow'
 text1 = 'My name is {0}-{0}-{0}!'.format(name, city)
 text2 = '{1} is my city and {0} is my name!'.format(name, city)
@@ -532,8 +522,7 @@ print(text2)  # <em>Moscow is my city and Timur is my name!</em>
 
 *Пример:*
 
-<pre><code>
-first_name = 'Taylor'
+<pre><code>first_name = 'Taylor'
 last_name = 'Swift'
 country = 'USA'
 birth_date = '1989/12/13'
@@ -562,12 +551,162 @@ print(text)  # <em>Taylor Swift is a very famous singer from the USA. She was bo
 
 <br>
 
+## 11. Списки
+
+### <span id="h111">11.1. *Введение в списки*</span>
+
+Список представляет собой последовательность элементов, пронумерованных от 0, как символы в строке.
+
+#### Создание списка
+
+<pre><code>numbers = [2, 4, 6, 8, 10] 
+languages = ['Python', 'C#', 'C++', 'Java']
+info = ['Timur', 1992, 61.5]
+mylist = []  # пустой список
+mylist = list()  # тоже пустой список
+numbers = list(range(5))  # [0, 1, 2, 3, 4]
+
+s = 'abcde'
+chars = list(s)  # ['a', 'b', 'c', 'd', 'e']
+</code></pre>
+
+#### Вывод списка / элементов списка
+
+<pre><code>info = ['Timur', 1992]
+print(info[0])  # 'Timur'
+print(info[1]  # 1992
+print(info)  # ['Timur', 1992]
+</code></pre>
+
+### <span id="h112">11.2. *Основы работы со списками*</span>
+
+Работа со списками очень сильно напоминает работу со строками, поскольку и списки, и строки содержат отдельные элементы.
+Однако элементы списка могут иметь произвольный тип, а элементами строк всегда являются символы.
+Многое из того, что мы делаем со строками, доступно и при работе со списками.
+
+К спискам применимы некоторые встроенные функции:
+- <code>len()</code> - Находит длину списка. Длиной списка называется количество его элементов.
+- <code>sum()</code> - Находит сумму элементов списка.
+- <code>min()</code> - Находит минимальный элемент в списке.
+- <code>max()</code> - Находит максимальный элемент в списке.
+
+#### Оператор принадлежности in
+
+Оператор <code>in</code> позволяет проверить, содержит ли список некоторый элемент.
+
+<pre><code>numbers = [2, 4, 6, 8, 10]
+print(2 in numbers)  # True
+print(3 in numbers)  # False
+</code></pre>
+
+#### Индексация
+
+<pre><code>numbers = [2, 4, 6, 8, 10]
+print(numbers[1])  # 4
+print(numbers[-1])  # 10
+print(numbers[17])  # IndexError: index out of range
+</code></pre>
+
+#### Срезы
+
+<pre><code>numbers = [2, 4, 6, 8, 10]
+print(numbers[1:3])  # [4, 6]
+print(numbers[2:5])  # [6, 8, 10]
+print(numbers[:])  # [2, 4, 6, 8, 10]
+</code></pre>
+
+<pre><code>fruits = ['apple', 'apricot', 'banana', 'cherry', 'kiwi', 'lemon', 'mango']
+fruits[2:5] = ['банан', 'вишня', 'киви']
+
+print(fruits)  # ['apple', 'apricot', 'банан', 'вишня', 'киви', 'lemon', 'mango']
+</code></pre>
+
+#### Операция конкатенации + и умножения на число *
+
+<pre><code>print([1, 2, 3, 4] + [5, 6, 7, 8])  # [1, 2, 3, 4, 5, 6, 7, 8]
+print([7, 8] * 3)  # [7, 8, 7, 8, 7, 8]
+print([0] * 10)  # [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+</code></pre>
+
+<pre><code>a = [1, 2, 3, 4]
+b = [7, 8]
+a += b   # добавляем к списку a список b
+b *= 5   # повторяем список b 5 раз 
+
+print(a)  # [1, 2, 3, 4, 7, 8]
+print(b)  # [7, 8, 7, 8, 7, 8, 7, 8, 7, 8]
+</code></pre>
+
+#### Отличие списков от строк
+
+Несмотря на всю схожесть списков и строк, есть одно очень важное отличие: строки — неизменяемые объекты, а списки – изменяемые.
+
+### <span id="h113">11.3. *Методы списков*</span>
+
+|    Метод | Программный код                                                                                                                                                                                                                                                                                                      | Результат                                                                                                                                                                                                      | Пояснение                                                                                                                                                                                                           |
+|---------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| append() | <pre><code>numbers = \[1, 1, 2, 3, 5, 8, 13]<br>numbers.append(21)<br>numbers.append(34)<br>print(numbers)</code></pre>                                                                                                                                                                                              | <pre><code><br><br><br>\[1, 1, 2, 3, 5, 8, 13, 21, 34]</code></pre>                                                                                                                                            | Метод <code>append()</code> добавляет новый элемент в конец списка                                                                                                                                                  |
+| extend() | <pre><code>numbers = \[0, 2, 4, 6, 8, 10]<br>odds = \[1, 3, 5, 7]<br>numbers.extend(odds)<br>print(numbers)<br><br>words1 = \['iq option', 'stepik', 'beegeek']<br>words2 = \['iq option', 'stepik', 'beegeek']<br>words1.append('python')<br>words2.extend('python')<br>print(words1)<br>print(words2)</code></pre> | <pre><code><br><br><br>\[0, 2, 4, 6, 8, 10, 1, 3, 5, 7]<br><br><br><br><br><br>\['iq option', 'stepik', 'beegeek', 'python']<br>\['iq option', 'stepik', 'beegeek', 'p', 'y', 't', 'h', 'o', 'n']</code></pre> | Метод <code>extend()</code> расширяет список другим списком, добавляя элементы в конец списка. В отличие от <code>append()</code>, при добавлении строки метод <code>extend()</code> добавляет элементы посимвольно |
+|      del | <pre><code>numbers = \[1, 2, 3, 4, 5, 6, 7, 8, 9]<br>del numbers\[5]<br>print(numbers)<br><br>numbers = \[1, 2, 3, 4, 5, 6, 7, 8, 9]<br>del numbers\[2:7]<br>print(numbers)<br><br>numbers = \[1, 2, 3, 4, 5, 6, 7, 8, 9]<br>del numbers\[::2]<br>print(numbers)</code></pre>                                        | <pre><code><br><br>\[1, 2, 3, 4, 5, 7, 8, 9]<br><br><br><br>\[1, 2, 8, 9]<br><br><br><br>\[2, 4, 6, 8]</code></pre>                                                                                            | Оператор <code>del</code> удаляет элементы списка по определенному индексу.                                                                                                                                         |
+
+### <span id="h114">11.4. *Вывод элементов списка*</span>
+
+#### Вывод с помощью цикла for
+
+Если нужны индексы элементов:
+
+<pre><code>numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in range(len(numbers)):
+    print(numbers[i])
+</code></pre>
+
+Если не нужны индексы элементов:
+
+<pre><code>numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for num in numbers:
+    print(num)
+</code></pre>
+
+#### Вывод с помощью распаковки списка
+
+<pre><code>numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(*numbers)
+</code></pre>
+
+Такой код выведет:
+
+<pre><code>0 1 2 3 4 5 6 7 8 9 10</code></pre>
+
+<pre><code>s = 'Python'
+
+print(*s)
+print()
+print(*s, sep='\n')
+</code></pre>
+
+Такой код выведет:
+
+<pre><code>P y t h o n
+
+P
+y
+t
+h
+o
+n
+</code></pre>
+
+<br>
+
 ## Встроенные функции
 
 | Функция | Программный код                                                                                        | Результат                    | Пояснение                                                                                                                                             |
 |--------:|--------------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   abs() | <pre><code>n = -5<br>print(abs(n))</code></pre>                                                        | <code>5</code>               | Найти модуль числа                                                                                                                                    |
-|   chr() | <pre><code>chr1 = chr(65)<br>chr2 = chr(75)<br>chr3 = chr(110)<br>print(chr1, chr2, chr3)</code></pre> | <code>A K n</code>               | Функция <code>chr</code> позволяет определить по коду символа сам символ. Аргументом данной функции является численный код.                           |
+|   chr() | <pre><code>chr1 = chr(65)<br>chr2 = chr(75)<br>chr3 = chr(110)<br>print(chr1, chr2, chr3)</code></pre> | <code>A K n</code>           | Функция <code>chr</code> позволяет определить по коду символа сам символ. Аргументом данной функции является численный код.                           |
 | float() | <pre><code>n = '5.3'<br>print(float(n))</code></pre>                                                   | <code>5.3</code>             | Преобразовать к числу с плавающей точкой                                                                                                              |
 | input() |                                                                                                        | <code></code>                | Считать с клавиатуры                                                                                                                                  |
 |   int() | <pre><code>n = '5.3'<br>print(int(n))</code></pre>                                                     | <code>5</code>               | Преобразовать к целому числу                                                                                                                          |
@@ -577,3 +716,4 @@ print(text)  # <em>Taylor Swift is a very famous singer from the USA. She was bo
 |   ord() | <pre><code>num1 = ord('A')<br>num2 = ord('B')<br>num3 = ord('a')<br>print(num1, num2, num3)</pre>      | <code>65 66 97</code>        | Функция <code>ord</code> позволяет определить код некоторого символа в таблице символов Unicode. Аргументом данной функции является одиночный символ. |
 | print() | <pre><code>print('Вывожу на экран')</code></pre>                                                       | <code>Вывожу на экран</code> | Вывести на экран                                                                                                                                      |
 |   str() | <pre><code>n = 5<br>print(str(n))</code></pre>                                                         | <code>'5'</code>             | Преобразовать к строке                                                                                                                                |
+|   sum() | <pre><code>n = 5<br>m = 3<br>print(sum(n, m))</code></pre>                                             | <code>8</code>               | Найти сумму элементов                                                                                                                                 |

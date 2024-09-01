@@ -279,11 +279,15 @@
 
 ### 11.1. *Введение в списки*
 
+[Теория](problems/theory.md)
+
 | <!-- -->                                                                 | <!-- -->                                                                 | <!-- --> |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------|----------|
 | [**11.1.1.** List of numbers](problems/problem11.1.1.List_of_numbers.md) | [**11.1.2.** List of letters](problems/problem11.1.2.List_of_letters.md) |          |
 
 ### 11.2. *Основы работы со списками*
+
+[Теория](problems/theory.md)
 
 | <!-- -->                                                                               | <!-- -->                                                                                                   | <!-- -->                                                                           |
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -293,8 +297,20 @@
 
 ### 11.3. *Методы списков. Часть 1*
 
+[Теория](problems/theory.md)
+
 | <!-- -->                                                                       | <!-- -->                                                                                  | <!-- -->                                                                           |
 |--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**11.3.1.** All at once 1*](problems/problem11.3.1.All_at_once_1.md)          | [**11.3.2.** List of strings](problems/problem11.3.2.List_of_strings.md)                  | [**11.3.3.** Alphabet](problems/problem11.3.3.Alphabet.md)                         |
 | [**11.3.4.** List of cubes](problems/problem11.3.4.List_of_cubes.md)           | [**11.3.5.** List of divisors](problems/problem11.3.5.List_of_divisors.md)                | [**11.3.6.** Sum of two](problems/problem11.3.6.Sum_of_two.md)                     |
 | [**11.3.7.** Remove odd indices](problems/problem11.3.7.Remove_odd_indices.md) | [**11.3.8.** k-th letter of the word*](problems/problem11.3.8.k-th_letter_of_the_word.md) | [**11.3.9.** Symbols of all lines](problems/problem11.3.9.Symbols_of_all_lines.md) |
+
+### 11.4. *Вывод элементов списка*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                                                  | <!-- -->                                                                 | <!-- -->                                                                   |
+|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [**11.4.1.** Sum of squares of list elements*](problems/problem11.4.1.Sum_of_squares_of_list_elements.md) | [**11.4.2.** Function value](problems/problem11.4.2.Function_value.md)   | [**11.4.3.** Remove outliers](problems/problem11.4.3.Remove_outliers.md)   |
+| [**11.4.4.** No duplicates](problems/problem11.4.4.No_duplicates.md)                                      | [**11.4.5.** Google search 1](problems/problem11.4.5.Google_search_1.md) | [**11.4.6.** Google search 2**](problems/problem11.4.6.Google_search_2.md) |
+| [**11.4.7.** Negatives, Zeros and Positives](problems/problem11.4.7.Negatives_Zeros_and_Positives.md)     |                                                                          |                                                                            |
