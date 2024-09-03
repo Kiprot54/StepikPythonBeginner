@@ -36,4 +36,3 @@ if day_plan_lose_weight >= weight:
     print('Всё идет по плану')
 else:
     print('Что-то пошло не так')
-

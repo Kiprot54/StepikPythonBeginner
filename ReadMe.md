@@ -262,9 +262,11 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                                                       | <!-- -->                                                                                | <!-- -->                                                           |
-|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [**9.7.1.** Characters in range](problems/problem9.7.1.Characters_in_range.md)                 | [**9.7.2.** Simple cipher](problems/problem9.7.2.Simple_cipher.md)                      | [**9.7.3.** Caesar cipher](problems/problem9.7.3.Caesar_cipher.md) |
+| <!-- -->                                                                                                        | <!-- -->                                                                 | <!-- -->                                                                 |
+|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [**9.7.1.** Characters in range](problems/problem9.7.1.Characters_in_range.md)                                  | [**9.7.2.** Simple cipher](problems/problem9.7.2.Simple_cipher.md)       | [**9.7.3.** Caesar cipher](problems/problem9.7.3.Caesar_cipher.md)       |
+| [**9.7.4.** What is the next letter?](problems/problem9.7.4.What_is_the_next_letter.md)                         | [**9.7.5.** The hardest word](problems/problem9.7.5.The_hardest_word.md) | [**9.7.6.** Cost of response](problems/problem9.7.6.Cost_of_response.md) |
+| [**9.7.7.** Increasing the cost of the response*](problems/problem9.7.7.Increasing_the_cost_of_the_response.md) | [**9.7.8.** System failure**](problems/problem9.7.8.System_failure.md)   |                                                                          |
 
 ## 10. Итоговая работа по теме "Строки"
 
