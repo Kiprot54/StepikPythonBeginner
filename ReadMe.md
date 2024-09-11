@@ -272,10 +272,10 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                                     | <!-- -->                                                                 | <!-- -->                                                     |
-|------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------|
-| [**9.8.1.** String min and max](problems/problem9.8.1.String_min_and_max.md) | [**9.8.2.** The Magic Number](problems/problem9.8.2.The_Magic_Number.md) | [**9.8.3.** Class name](problems/problem9.8.3.Class_name.md) |
-|                                                                              |                                                                          |                                                              |
+| <!-- -->                                                                     | <!-- -->                                                                 | <!-- -->                                                              |
+|------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [**9.8.1.** String min and max](problems/problem9.8.1.String_min_and_max.md) | [**9.8.2.** The Magic Number](problems/problem9.8.2.The_Magic_Number.md) | [**9.8.3.** Class name](problems/problem9.8.3.Class_name.md)          |
+| [**9.8.4.** Unusual comparison](problems/problem9.8.4.Unusual_comparison.md) | [**9.8.5.** Sorting words](problems/problem9.8.5.Sorting_words.md)       | [**9.8.6.** Order of books*](problems/problem9.8.6.Order_of_books.md) |
 
 ## 10. Итоговая работа по теме "Строки"
 
