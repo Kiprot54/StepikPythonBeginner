@@ -4,7 +4,7 @@ print('Название класса')
 print()
 
 while True:
-    n = input('Введи целое положительное число: ')
+    n = input('Введи количество классов: ')
     if_number = ifnumber.if_number(n)
     if if_number == 'int' and int(n) > 0:
         n = int(n)
@@ -34,5 +34,3 @@ for i in range(n):
         temp = 'не'
     print(f'Название класса {s} {temp}правильное')
     print()
-
-# Что показывает число n? Что нужно ввести в input?

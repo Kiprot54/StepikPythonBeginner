@@ -1,7 +1,7 @@
 print('Строковые минимум и максимум')
 print()
 
-s = ''
+s_all = ''
 min_s = ''
 max_s = ''
 while True:
@@ -12,9 +12,9 @@ while True:
             print()
         else:
             break
-
     if s == 'КОНЕЦ':
         break
+    s_all += '\n' + s
     if min_s == '':
         min_s = s
         max_s = s
@@ -22,7 +22,6 @@ while True:
         min_s = min(min_s, s)
         max_s = max(max_s, s)
 print()
-print(f'Минимальная строка ⬇️: {min_s}')
-print(f'Максимальная строка ⬆️: {max_s}')
-
-# Среди строк ...
+print(f'Среди строк: {s_all}')
+print(f'минимальная строка ⬇️: {min_s}')
+print(f'максимальная строка ⬆️: {max_s}')
