@@ -16,7 +16,7 @@ while True:
         print()
 for i in range(1, n + 1):
     while True:
-        s = input('Введи фамилию, инициалы автора и "название книги": ')
+        s = input('Введи фамилию автора, инициалы автора и "название книги": ')
         if len(s.strip()) == 0:
             print('Строка не должна быть пустой')
             print()
@@ -37,4 +37,3 @@ if flag:
     print('YES')
 else:
     print('NO')
-
