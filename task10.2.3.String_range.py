@@ -1,4 +1,4 @@
-print('Четвёртый символ')
+print('Строковый диапазон')
 print()
 
 while True:
@@ -9,4 +9,4 @@ while True:
     else:
         break
 print()
-print(f'Четвёртый символ строки "{s}": {s[3]}')
+print(f'Символы со 2 по 5 строки "{s}": {s[1:5]}')
