@@ -344,3 +344,13 @@
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [**11.6.1.** All at once 2*](problems/problem11.6.1.All_at_once_2.md)                        | [**11.6.2.** Reverse min and max](problems/problem11.6.2.Reverse_min_and_max.md) | [**11.6.3.** Number of articles](problems/problem11.6.3.Number_of_articles.md) |
 | [**11.6.4.** Brotherhood of Steel Hack](problems/problem11.6.4.Brotherhood_of_Steel_Hack.md) | [**11.6.5.** Sorting numbers](problems/problem11.6.5.Sorting_numbers.md)         |                                                                                |
+
+### 11.7. *Списочные выражения*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                         | <!-- -->                                                                           | <!-- -->                                                                           |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [**11.7.1.** Without first](problems/problem11.7.1.Without_first.md)             | [**11.7.2.** List of lengths](problems/problem11.7.2.List_of_lengths.md)           | [**11.7.3.** No less than five](problems/problem11.7.3.No_less_than_five.md)       |
+| [**11.7.4.** List of palindromes](problems/problem11.7.4.List_of_palindromes.md) | [**11.7.5.** List comprehension 1](problems/problem11.7.5.List_comprehension_1.md) | [**11.7.6.** List comprehension 2](problems/problem11.7.6.List_comprehension_2.md) |
+| [**11.7.7.** In one line 1](problems/problem11.7.7.In_one_line_1.md)             | [**11.7.8.** In one line 2](problems/problem11.7.8.In_one_line_2.md)               | [**11.7.9.** In one line 3](problems/problem11.7.9.In_one_line_3.md)               |
