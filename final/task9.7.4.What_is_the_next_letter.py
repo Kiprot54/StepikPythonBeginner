@@ -14,8 +14,6 @@ while True:
     else:
         break
     print()
-if s == 'Ё':
-    s = 'Е'
 if s == 'Я':
     print('Дальше букв нет')
 else:

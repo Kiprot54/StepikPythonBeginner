@@ -16,11 +16,14 @@ if 8 <= len(s) <= 10:
     letters = s[0] + s[4:6]
     digits = s[1:4] + s[7:]
     separator = s[6]
-    if digits.isdigit() and separator == '_':
+    if len(digits) > 4 and digits.isdigit() and separator == '_':
         temp = ''
-    for c in letters:
-        if c not in all_letters:
-            temp = 'не'
+        for c in letters:
+            if c not in all_letters:
+                temp = 'не'
+                break
+    else:
+        temp = 'не'
 else:
     temp = 'не'
 print(f'Автомобильный номер {s} {temp}корректный')
