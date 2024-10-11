@@ -2,12 +2,10 @@ print('Алфавит')
 print()
 
 lst = []
-for i in range(26):
-    s = ''
-    for j in range(i + 1):
-        s += chr(ord('a') + i)
-    lst.append(s)
+code_a = ord('a')
+div = code_a - 1
+for i in range(code_a, ord('z') + 1):
+    s = chr(i)
+    lst.append(s * (i - div))
 print(lst)
 
-# Почему 26? Откуда это число? Лучше взять код первой буквы и последней и уже с ними использовать range.
-# Проще можно решить. Умножение строки на число
