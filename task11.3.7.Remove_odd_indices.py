@@ -1,6 +1,6 @@
 import ifnumber
 
-print('Список кубов')
+print('Удалите нечётные индексы')
 print()
 
 while True:
@@ -12,8 +12,8 @@ while True:
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число')
         print()
-
 print()
+
 lst = []
 for i in range(1, num + 1):
     while True:
@@ -25,5 +25,10 @@ for i in range(1, num + 1):
         else:
             print('Данные введены некорректно! Нужно ввести целое число')
             print()
-    lst.append(n ** 3)
-print(lst)
+    lst.append(n)
+lst_del = []
+for i in range(len(lst)):
+    if i % 2 == 0:
+        n1 = lst[i]
+        lst_del.append(n1)
+print(lst_del)
