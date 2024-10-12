@@ -16,7 +16,7 @@ print()
 lst = []
 for i in range(1, num + 1):
     while True:
-        n = input('Введи целое число: ')
+        n = input(f'Введи {i}-е целое число: ')
         if_number = ifnumber.if_number(n)
         if if_number == 'int':
             n = int(n)

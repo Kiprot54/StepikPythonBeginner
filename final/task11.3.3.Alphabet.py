@@ -8,4 +8,3 @@ for i in range(code_a, ord('z') + 1):
     s = chr(i)
     lst.append(s * (i - div))
 print(lst)
-
