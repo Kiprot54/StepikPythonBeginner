@@ -4,7 +4,7 @@ print('Символы всех строк')
 print()
 
 while True:
-    n = input('Введи количество строк: ')
+    n = input('Сколько строк будет введено? ')
     if_number = ifnumber.if_number(n)
     if if_number == 'int' and int(n) > 0:
         n = int(n)
