@@ -320,11 +320,11 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                                                                  | <!-- -->                                                                 | <!-- -->                                                                   |
-|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| [**11.4.1.** Sum of squares of list elements*](problems/problem11.4.1.Sum_of_squares_of_list_elements.md) | [**11.4.2.** Function value](problems/problem11.4.2.Function_value.md)   | [**11.4.3.** Remove outliers](problems/problem11.4.3.Remove_outliers.md)   |
-| [**11.4.4.** No duplicates](problems/problem11.4.4.No_duplicates.md)                                      | [**11.4.5.** Google search 1](problems/problem11.4.5.Google_search_1.md) | [**11.4.6.** Google search 2**](problems/problem11.4.6.Google_search_2.md) |
-| [**11.4.7.** Negatives, Zeros and Positives](problems/problem11.4.7.Negatives_Zeros_and_Positives.md)     |                                                                          |                                                                            |
+| <!-- -->                                                                                                 | <!-- -->                                                                 | <!-- -->                                                                   |
+|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [**11.4.1.** Sum of squares of list elements](problems/problem11.4.1.Sum_of_squares_of_list_elements.md) | [**11.4.2.** Function value](problems/problem11.4.2.Function_value.md)   | [**11.4.3.** Remove outliers](problems/problem11.4.3.Remove_outliers.md)   |
+| [**11.4.4.** No duplicates](problems/problem11.4.4.No_duplicates.md)                                     | [**11.4.5.** Google search 1](problems/problem11.4.5.Google_search_1.md) | [**11.4.6.** Google search 2**](problems/problem11.4.6.Google_search_2.md) |
+| [**11.4.7.** Negatives, Zeros and Positives](problems/problem11.4.7.Negatives_Zeros_and_Positives.md)    |                                                                          |                                                                            |
 
 ### 11.5. *Методы строк: split, join*
 

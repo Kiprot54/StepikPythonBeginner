@@ -42,3 +42,6 @@ for i in range(len(numbers)):
         break
 
 print(*numbers, sep='\n')
+
+# строки 18 и 21
+# Непонятно, что выводится

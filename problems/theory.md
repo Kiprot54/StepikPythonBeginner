@@ -24,6 +24,8 @@
 <a href="#h113">11.3. Методы списков</a><br>
 <a href="#h114">11.4. Вывод элементов списка</a><br>
 <a href="#h115">11.5. Методы строк: split, join</a><br>
+<a href="#h117">11.7. Списочные выражения</a><br>
+<a href="#h118">11.8. Списочные выражения</a><br>
 
 ## 2. Ввод-вывод данных
 
@@ -783,6 +785,10 @@ words = ['one', 'two', 'three', 'four', 'five', 'six']
 | <pre><code>[m[0] for m in words]</code></pre>                | <pre><code>['o', 't', 't', 'f', 'f', 's']</code></pre> |
 | <pre><code>[i for i in numbers if i < 10]</code></pre>       | <pre><code>[1, 5, 9]</code></pre>                      |
 | <pre><code>[m[0] for m in words if len(m) == 3]</code></pre> | <pre><code>['o', 't', 's']</code></pre>                |
+
+### <span id="h118">11.8. * Сортировка списков*</span>
+
+
 
 <br>
 

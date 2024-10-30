@@ -22,8 +22,8 @@ for i in range(1, n + 1):
             print()
         else:
             break
-    print()
 
     if s not in lst:
         lst.append(s)
+print('Строки без дубликатов:')
 print(*lst, sep='\n')
