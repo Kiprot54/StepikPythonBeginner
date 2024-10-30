@@ -29,6 +29,4 @@ print(*numbers, sep='\n')
 print()
 for el in numbers:
     f_x = el ** 2 + el * 2 + 1
-    print(f_x)
-
-# Непонятно, что выводится
+    print(f'{el} ** 2 + {el} * 2 + 1 = {f_x}')

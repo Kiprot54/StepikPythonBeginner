@@ -15,7 +15,7 @@ while True:
 print()
 
 numbers = []
-print(f'Введи {n} различных чисел')
+print(f'Введи {n} различных целых положительных чисел')
 for i in range(1, n + 1):
     while True:
         num = input('Введи целое положительное число: ')
@@ -41,7 +41,6 @@ for i in range(len(numbers)):
         del numbers[i]
         break
 
+print()
+print('Введённые числа без наименьшего и наибольшего:')
 print(*numbers, sep='\n')
-
-# строки 18 и 21
-# Непонятно, что выводится
