@@ -354,3 +354,12 @@
 | [**11.7.1.** Without first](problems/problem11.7.1.Without_first.md)             | [**11.7.2.** List of lengths](problems/problem11.7.2.List_of_lengths.md)           | [**11.7.3.** No less than five](problems/problem11.7.3.No_less_than_five.md)       |
 | [**11.7.4.** List of palindromes](problems/problem11.7.4.List_of_palindromes.md) | [**11.7.5.** List comprehension 1](problems/problem11.7.5.List_comprehension_1.md) | [**11.7.6.** List comprehension 2](problems/problem11.7.6.List_comprehension_2.md) |
 | [**11.7.7.** In one line 1](problems/problem11.7.7.In_one_line_1.md)             | [**11.7.8.** In one line 2](problems/problem11.7.8.In_one_line_2.md)               | [**11.7.9.** In one line 3](problems/problem11.7.9.In_one_line_3.md)               |
+
+### 11.8. *Сортировка списков*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                   | <!-- -->                                                          | <!-- -->                                                                   |
+|----------------------------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [**11.8.1.** Bubble sort 1](problems/problem11.8.1.Bubble_sort_1)          | [**11.8.2.** Bubble sort 2](problems/problem11.8.2.Bubble_sort_2) | [**11.8.3.** Selection sort 1](problems/problem11.7.3.Selection_sort_1.md) |
+| [**11.8.4.** Selection sort 2](problems/problem11.8.4.Selection_sort_2.md) |                                                                   |                                                                            |
