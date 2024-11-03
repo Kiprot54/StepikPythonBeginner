@@ -14,6 +14,7 @@
 <a href="#h72">7.2. Цикл for: функция range</a><br>
 <a href="#h73">7.3. Частые сценарии</a><br>
 <a href="#h74">7.4. Цикл while</a><br>
+<a href="#h76">7.6. break, continue и else</a><br>
 <a href="#h91">9.1. Индексация</a><br>
 <a href="#h92">9.2. Срезы</a><br>
 <a href="#h93">9.3. Методы строк</a><br>
