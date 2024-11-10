@@ -330,11 +330,11 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                                                 | <!-- -->                                                                       | <!-- -->                                                                 |
-|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| [**11.5.1.** Line by line output](problems/problem11.5.1.Line_by_line_output.md)         | [**11.5.2.** Initials](problems/problem11.5.2.Initials.md)                     | [**11.5.3.** Windows OS](problems/problem11.5.3.Windows_OS.md)           |
-| [**11.5.4.** Diagram](problems/problem11.5.4.Diagram.md)                                 | [**11.5.5.** Correct IP address](problems/problem11.5.5.Correct_IP_address.md) | [**11.5.6.** Add a separator**](problems/problem11.5.6.Add_separator.md) |
-| [**11.5.7.** Number of matching pairs](problems/problem11.5.7.Number_of_matching_pairs)  |                                                                                |                                                                          |
+| <!-- -->                                                                                   | <!-- -->                                                                       | <!-- -->                                                                 |
+|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [**11.5.1.** Line by line output](problems/problem11.5.1.Line_by_line_output.md)           | [**11.5.2.** Initials](problems/problem11.5.2.Initials.md)                     | [**11.5.3.** Windows OS](problems/problem11.5.3.Windows_OS.md)           |
+| [**11.5.4.** Diagram](problems/problem11.5.4.Diagram.md)                                   | [**11.5.5.** Correct IP address](problems/problem11.5.5.Correct_IP_address.md) | [**11.5.6.** Add a separator**](problems/problem11.5.6.Add_separator.md) |
+| [**11.5.7.** Number of matching pairs](problems/problem11.5.7.Number_of_matching_pairs.md) |                                                                                |                                                                          |
 
 ### 11.6. *Методы списков. Часть 2*
 
