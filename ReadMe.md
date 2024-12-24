@@ -369,7 +369,7 @@
 | <!-- -->                                                             | <!-- -->                                                                   | <!-- -->                                                               |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [**12.2.1.** List of even](problems/problem12.2.1.List_of_even.md)   | [**12.2.2.** Sum of two lists](problems/problem12.2.2.Sum_of_two_lists.md) | [**12.2.3.** Sum of numbers](problems/problem12.2.3.Sum_of_numbers.md) |
-| [**12.2.4.** Valid number**](problems/problem12.2.4.Valid_number.md) | [**12.2.5.** Longest**](problems/problem12.2.5.Longest.md)                 | [**12.2.6.** Longest**](problems/problem12.2.6.Youth_slang.md)         |
+| [**12.2.4.** Valid number**](problems/problem12.2.4.Valid_number.md) | [**12.2.5.** Longest](problems/problem12.2.5.Longest.md)                   | [**12.2.6.** Youth slang](problems/problem12.2.6.Youth_slang.md)       |
 
 ## 13. Функции
 
