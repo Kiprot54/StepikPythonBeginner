@@ -30,3 +30,4 @@ for i in range(4):
     coords.append(get_coord(symbol, number))
 
 print(get_distance(coords[0], coords[1], coords[2], coords[3]))
+
