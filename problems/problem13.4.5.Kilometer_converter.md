@@ -5,15 +5,15 @@
 
 ***Примечание.*** Приведённый ниже код:
 
-<pre><code>print(convert_to_miles(1))<br>
-print(convert_to_miles(5))<br>
+<pre><code>print(convert_to_miles(1))
+print(convert_to_miles(5))
 print(convert_to_miles(10))
 </code></pre>
 
 должен выводить:
 
-<pre><code>0.6214<br>
-3.107<br>
+<pre><code>0.6214
+3.107
 6.214
 </code></pre>
 
