@@ -1,6 +1,0 @@
-print('451 градус по Фаренгейту')
-print()
-farengeit = input('Введи температуру в градусах фаренгейта: ')
-farengeit = float(farengeit)
-celsius = 5 / 9 * (farengeit - 32)
-print(f'{farengeit} F = {celsius} C')
