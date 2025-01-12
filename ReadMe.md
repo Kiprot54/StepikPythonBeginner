@@ -399,3 +399,14 @@
 | [**13.4.4.** Average value](problems/problem13.4.4.Average_value.md)     | [**13.4.5.** Kilometer converter](problems/problem13.4.5.Kilometer_converter.md)         | [**13.4.6.** Number of days](problems/problem13.4.6.Number_of_days.md) |
 | [**13.4.7.** Dividers 1](problems/problem13.4.7.Dividers_1.md)           | [**13.4.8.** Dividers 2](problems/problem13.4.8.Dividers_2.md)                           | [**13.4.9.** Find all](problems/problem13.4.9.Find_all.md)             |
 | [**13.4.10.** Merge lists 1](problems/problem13.4.10.Merge_lists_1.md)   | [**13.4.11.** Merge lists 2](problems/problem13.4.11.Merge_lists_2.md)                   |                                                                        |
+
+### 13.5. *Функции с возвратом значения. Часть 2*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                              | <!-- -->                                                                                    | <!-- -->                                                               |
+|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [**13.5.1.** Is the Triangle Valid?](problems/problem13.5.1.Is_the_Triangle_Valid.md) | [**13.5.2.** Is the Number Prime?*](problems/problem13.5.2.Is_the_Number_Prime.md)          | [**13.5.3.** Next Prime**](problems/problem13.5.3.Next_Prime.md)       |
+| [**13.5.4.** Good password*](problems/problem13.5.4.Good_password.md)                 | [**13.5.5.** Exactly one](problems/problem13.5.5.Exactly_one.md)                            | [**13.5.6.** Palindrome*](problems/problem13.5.6.Palindrome.md)        |
+| [**13.5.7.** BEEGEEK*](problems/problem13.5.7.BEEGEEK.md)                             | [**13.5.8.** Correct bracket sequence*](problems/problem13.5.8.Correct_bracket_sequence.md) | [**13.5.9.** Snake register](problems/problem13.5.9.Snake_register.md) |
+| [**13.4.10.** Merge lists 1](problems/problem13.4.10.Merge_lists_1.md)                | [**13.4.11.** Merge lists 2](problems/problem13.4.11.Merge_lists_2.md)                      |                                                                        |
