@@ -6,8 +6,6 @@ def is_one_away(word1, word2):
         n = 0
         for i in range(len(word1)):
             if word1[i] != word2[i]:
-                a = word1[i]
-                b = word2[i]
                 n += 1
                 if n > 1:
                     return False
