@@ -3,7 +3,7 @@
 Напишите функцию <code>convert_to_python_case(text)</code>, которая принимает в качестве аргумента строку
 в «верблюжьем регистре» и преобразует его в «змеиный регистр».
 
-***Примечание 2.*** Приведённый ниже код:
+***Примечание.*** Приведённый ниже код:
 
 <pre><code>print(convert_to_python_case('ThisIsCamelCased'))
 print(convert_to_python_case('IsPrimeNumber'))

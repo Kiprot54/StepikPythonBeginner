@@ -117,10 +117,10 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                                     | <!-- -->                                                               | <!-- -->                                                             |
-|------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [**6.3.1.** Euclidean distance](problems/problem6.3.1.Euclidean_distance.md) | [**6.3.2.** Area and length](problems/problem6.3.2.Area_and_length.md) | [**6.3.3.** Average values](problems/problem6.3.3.Average_values.md) |
-| [**6.3.4.** Floor and ceiling](problems/problem6.3.4.Floor_and_ceiling.md)   | [**6.3.5.** Regular polygon](problems/problem6.3.5.Regular_polygon.md) |                                                                      |
+| <!-- -->                                                                     | <!-- -->                                                               | <!-- -->                                                                         |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [**6.3.1.** Euclidean distance](problems/problem6.3.1.Euclidean_distance.md) | [**6.3.2.** Area and length](problems/problem6.3.2.Area_and_length.md) | [**6.3.3.** Average values](problems/problem6.3.3.Average_values.md)             |
+| [**6.3.4.** Floor and ceiling](problems/problem6.3.4.Floor_and_ceiling.md)   | [**6.3.5.** Regular polygon](problems/problem6.3.5.Regular_polygon.md) | [**6.3.6.** Quadratic equation\*\*](problems/problem6.3.6.Quadratic_equation.md) |
 
 ## 7. Циклы for и while
 
@@ -409,3 +409,14 @@
 | [**13.5.1.** Is the Triangle Valid?](problems/problem13.5.1.Is_the_Triangle_Valid.md) | [**13.5.2.** Is the Number Prime?*](problems/problem13.5.2.Is_the_Number_Prime.md)          | [**13.5.3.** Next Prime**](problems/problem13.5.3.Next_Prime.md)       |
 | [**13.5.4.** Good password*](problems/problem13.5.4.Good_password.md)                 | [**13.5.5.** Exactly one](problems/problem13.5.5.Exactly_one.md)                            | [**13.5.6.** Palindrome*](problems/problem13.5.6.Palindrome.md)        |
 | [**13.5.7.** BEEGEEK*](problems/problem13.5.7.BEEGEEK.md)                             | [**13.5.8.** Correct bracket sequence*](problems/problem13.5.8.Correct_bracket_sequence.md) | [**13.5.9.** Snake register](problems/problem13.5.9.Snake_register.md) |
+
+Следующая задача 6.3.6.
+
+### 13.6. *Функции с возвратом значения. Часть 3*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                         | <!-- -->                                                                 | <!-- -->                                                                       |
+|----------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| [**13.6.1.** Middle of the segment](problems/problem13.6.1.Middle_of_segment.md) | [**13.6.2.** Area and length](problems/problem13.6.2.Area_and_length.md) | [**13.6.3.** Roots of equation**](problems/problem13.6.3.Roots_of_equation.md) |
+
