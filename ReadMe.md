@@ -410,8 +410,6 @@
 | [**13.5.4.** Good password*](problems/problem13.5.4.Good_password.md)                 | [**13.5.5.** Exactly one](problems/problem13.5.5.Exactly_one.md)                            | [**13.5.6.** Palindrome*](problems/problem13.5.6.Palindrome.md)        |
 | [**13.5.7.** BEEGEEK*](problems/problem13.5.7.BEEGEEK.md)                             | [**13.5.8.** Correct bracket sequence*](problems/problem13.5.8.Correct_bracket_sequence.md) | [**13.5.9.** Snake register](problems/problem13.5.9.Snake_register.md) |
 
-Следующая задача 6.3.6.
-
 ### 13.6. *Функции с возвратом значения. Часть 3*
 
 [Теория](problems/theory.md)
@@ -419,4 +417,10 @@
 | <!-- -->                                                                         | <!-- -->                                                                 | <!-- -->                                                                       |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [**13.6.1.** Middle of the segment](problems/problem13.6.1.Middle_of_segment.md) | [**13.6.2.** Area and length](problems/problem13.6.2.Area_and_length.md) | [**13.6.3.** Roots of equation**](problems/problem13.6.3.Roots_of_equation.md) |
+
+## 14. Итоговая работа по теме "Функции"
+
+| <!-- -->                                                              | <!-- -->                                                                         | <!-- -->                                                         |
+|-----------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [**14.1.1.** Star triangle*](problems/problem14.1.1.Star_triangle.md) | [**14.1.2.** Delivery Calculator](problems/problem14.1.2.Delivery_Calculator.md) |                                                                  |
 
