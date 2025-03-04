@@ -14,7 +14,7 @@ def get_num():
     while True:
         num = input('Введи целое положительное число: ')
         if_number = ifnumber.if_number(num)
-        if if_number == 'int' and int(num):
+        if if_number == 'int' and int(num) > 0:
             num = int(num)
             return num
         else:
