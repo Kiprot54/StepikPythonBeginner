@@ -3,15 +3,16 @@
 Панграмма – это фраза, содержащая в себе все буквы алфавита. Обычно панграммы используют для презентации шрифтов,
 чтобы можно было в одной фразе рассмотреть все глифы.
 
-Напишите функцию <code>is_pangram(text, language)</code>, которая принимает в качестве аргумента строку текста на языке <code>language</code>
-и возвращает значение <code>True</code>, если текст является панграммой, или <code>False</code> в противном случае.
+Напишите функцию <code>is_pangram(text, language)</code>, которая принимает на вход два аргумента - строку текста <code>text</code>
+и <code>language</code> – язык <code>ru</code> или <code>en</code>, - и возвращает значение <code>True</code>,
+если текст является панграммой, или <code>False</code> в противном случае.
 
-***Примечание 1.*** Гарантируйте, что введённая строка содержит только буквы соответствующего алфавита и пробелы.
+***Примечание 1.*** Учитывайте в строке только буквы соответствующего алфавита и пробелы.
 
 ***Примечание 2.*** Приведённый ниже код:
 
-<pre><code>print(is_pangram('Jackdaws love my big sphinx of quartz'))
-print(is_pangram('The jay pig fox zebra and my wolves quack'))
+<pre><code>print(is_pangram('Jackdaws love my big sphinx of quartz', 'en'))
+print(is_pangram('Съешь ещё этих мягких французских булок да выпей чаю'))
 print(is_pangram('Hello world'))
 </code></pre>
 
