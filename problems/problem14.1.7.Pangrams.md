@@ -12,8 +12,8 @@
 ***Примечание 2.*** Приведённый ниже код:
 
 <pre><code>print(is_pangram('Jackdaws love my big sphinx of quartz', 'en'))
-print(is_pangram('Съешь ещё этих мягких французских булок да выпей чаю'))
-print(is_pangram('Hello world'))
+print(is_pangram('Съешь ещё этих мягких французских булок да выпей чаю', 'ru'))
+print(is_pangram('Hello world', 'en'))
 </code></pre>
 
 должен выводить:
