@@ -420,7 +420,9 @@
 
 ## 14. Итоговая работа по теме "Функции"
 
-| <!-- -->                                                              | <!-- -->                                                                         | <!-- -->                                                         |
-|-----------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------|
-| [**14.1.1.** Star triangle*](problems/problem14.1.1.Star_triangle.md) | [**14.1.2.** Delivery Calculator](problems/problem14.1.2.Delivery_Calculator.md) |                                                                  |
+| <!-- -->                                                                  | <!-- -->                                                                         | <!-- -->                                                                            |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [**14.1.1.** Star triangle*](problems/problem14.1.1.Star_triangle.md)     | [**14.1.2.** Delivery Calculator](problems/problem14.1.2.Delivery_Calculator.md) | [**14.1.3.** Binomial coefficient*](problems/problem14.1.3.Binomial_coefficient.md) |
+| [**14.1.4.** Number in words*](problems/problem14.1.4.Number_in_words.md) | [**14.1.5.** Month searched](problems/problem14.1.5.Month_searched.md)           | [**14.1.6.** Magical dates](problems/problem14.1.6.Magical_dates.md)                |
+| [**14.1.4.** Pangrams*](problems/problem14.1.7.Pangrams.md)               |                                                                                  |                                                                                     |
 
