@@ -12,7 +12,7 @@ def get_shipping_cost(quantity):
 
 def get_num():
     while True:
-        num = input('Введи целое положительное число: ')
+        num = input('Введи количество товаров в заказе: ')
         if_number = ifnumber.if_number(num)
         if if_number == 'int' and int(num) > 0:
             num = int(num)
