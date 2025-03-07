@@ -13,15 +13,11 @@ def get_month(language, number):
 
 def get_language():
     while True:
-        s = input('Введи русский или английский язык(ru или en): ')
-        if len(s.strip()) == 0:
-            print('Строка не должна быть пустой')
-            print()
+        s = input('Выбери язык: русский (ru) или английский (en): ')
+        if s != 'ru' and s != 'en':
+            print('Нужно выбрать ru или en')
         else:
-            if s != 'ru' and s != 'en':
-                print('Нужно ввести русский или английский язык (ru или en)')
-            else:
-                return s
+            return s
 
 def get_num():
     while True:
@@ -31,10 +27,12 @@ def get_num():
             num = int(num)
             return num
         else:
-            print('Данные введены некорректно! Нужно ввести номер месяца')
+            print('Введён неправильный номер месяца.')
             print()
 
 language = get_language()
 number = get_num()
 
 print(get_month(language, number))
+
+# 1 месяц года на английском языке - january
