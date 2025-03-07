@@ -33,6 +33,11 @@ def get_num():
 language = get_language()
 number = get_num()
 
-print(get_month(language, number))
+lang = ''
 
-# 1 месяц года на английском языке - january
+if language == 'ru':
+    lang = 'русском'
+else:
+    lang = 'английском'
+
+print(f'{number} месяц года на {lang} языке - {get_month(language, number)}')

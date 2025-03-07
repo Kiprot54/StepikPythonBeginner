@@ -16,14 +16,17 @@ def get_date():
             print()
         else:
             lst = s.split('.')
-            if lst[0].isdigit() or lst[1].isdigit() or lst[2].isdigit():
-                print('Нужно ввести строковое представление корректной даты')
-                print()
+            if len(lst) == 3 and lst[0].isdigit() and lst[1].isdigit() and lst[2].isdigit():
+                if len(lst[0]) == 2 and len(lst[1]) == 2 and len(lst[2]) == 4:
+                    return s
+                else:
+                    print('Нужно ввести дату в формате dd.mm.yyyy')
+                    print()
             else:
-                return s
+                print('Нужно ввести дату в формате dd.mm.yyyy')
+                print()
 
-s = get_date()
+date = get_date()
 
-print(is_magic(s))
+print(is_magic(date))
 
-# Неправильная проверка
