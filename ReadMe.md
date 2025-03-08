@@ -426,3 +426,13 @@
 | [**14.1.4.** Number in words*](problems/problem14.1.4.Number_in_words.md) | [**14.1.5.** Month searched](problems/problem14.1.5.Month_searched.md)           | [**14.1.6.** Magical dates](problems/problem14.1.6.Magical_dates.md)                |
 | [**14.1.7.** Pangrams*](problems/problem14.1.7.Pangrams.md)               |                                                                                  |                                                                                     |
 
+## 15. Работа над мини-проектом
+
+### 15.1. *Модуль random*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                            | <!-- -->                                               | <!-- -->                                                       |
+|-----------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------------|
+| [**15.1.1.** Dice 1](problems/problem15.1.1.Dice_1) | [**15.1.2.** Dice 2](problems/problem15.1.2.Dice_2.md) | [**15.1.3.** Coin flip**](problems/problem15.1.3.Coin_flip.md) |
+
