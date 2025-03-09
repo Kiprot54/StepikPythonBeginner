@@ -6,17 +6,15 @@ def is_pangram(text, language):
     alph_en = 'abcdefghijklmnopqrstuvwxyz'
     txt = text.lower()
     if language == 'ru':
-        for c in alph_ru:
-            if c in txt:
-                return True
-            else:
-                return False
+        return is_symbol_in_string(alph_ru, txt)
     else:
-        for c in alph_en:
-            if c in txt:
-                return True
-            else:
-                return False
+        return is_symbol_in_string(alph_en, txt)
+
+def is_symbol_in_string(alphabet, txt):
+    for c in alphabet:
+        if c not in txt:
+            return False
+    return True
 
 def get_text():
     while True:
@@ -29,16 +27,21 @@ def get_text():
 
 def get_language():
     while True:
-        s = input('Выбери язык: русский (ru) или английский (en): ')
-        if s != 'ru' and s != 'en':
+        lang = input('Выбери язык: русский (ru) или английский (en): ')
+        if lang != 'ru' and lang != 'en':
             print('Нужно выбрать ru или en')
+            print()
         else:
-            return s
+            return lang
 
 text = get_text()
 language = get_language()
 
-print(is_pangram(text, language))
+s = ''
+if not is_pangram(text, language):
+    s = 'не '
+
+print(f'Строка "{text}" {s}является панграммой')
 
 # неправильно
 # Нужно вывести: строка ... [не] является панграммой
