@@ -4,16 +4,16 @@ print()
 def is_pangram(text, language):
     alph_ru = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
     alph_en = 'abcdefghijklmnopqrstuvwxyz'
-    text = text.lower()
+    txt = text.lower()
     if language == 'ru':
         for c in alph_ru:
-            if c in text:
+            if c in txt:
                 return True
             else:
                 return False
     else:
         for c in alph_en:
-            if c in text:
+            if c in txt:
                 return True
             else:
                 return False
@@ -35,8 +35,10 @@ def get_language():
         else:
             return s
 
-
-language = get_language()
 text = get_text()
+language = get_language()
 
 print(is_pangram(text, language))
+
+# неправильно
+# Нужно вывести: строка ... [не] является панграммой
