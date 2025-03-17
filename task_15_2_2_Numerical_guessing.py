@@ -11,23 +11,46 @@ def is_valid(s):
             return True
     return False
 
-n = random.randint(1, 100)
+def get_num():
+    while True:
+        numb = input('Нужно узнать диапазон, в котором вы будете угадывать число. Он начинается с 1. Каким числом он закончится? ')
+        if not is_valid(numb):
+            print(f'А может быть всё-таки введём целое число больше 1?')
+            print()
+        else:
+            numb = int(numb)
+            return numb
 
 print('Добро пожаловать в числовую угадайку')
 
+repeat = 'y'
+while repeat == 'y':
+    number = get_num()
 
-while True:
-    num = input('Введи целое число от 1 до 100: ')
-    if not is_valid(num):
-        print('А может быть всё-таки введём целое число от 1 до 100?')
-    else:
-        num = int(num)
-        if num < n:
-            print('Ваше число меньше загаданного, попробуйте еще разок')
-        elif num > n:
-            print('Ваше число больше загаданного, попробуйте еще разок')
+    n = random.randint(1, number)
+
+    attempts = 0
+    while True:
+        num = input(f'Введи целое число от 1 до {number}: ')
+        if not is_valid(num):
+            print(f'А может быть всё-таки введём целое число от 1 до {number}?')
         else:
-            print('Вы угадали, поздравляем!')
-            break
+            attempts += 1
+            num = int(num)
+            if num < n:
+                print('Ваше число меньше загаданного, попробуйте еще разок')
+            elif num > n:
+                print('Ваше число больше загаданного, попробуйте еще разок')
+            else:
+                print('Вы угадали, поздравляем!')
+                break
+    print(f'Вы угадали число {n} за {attempts} попыток')
+    print()
+    repeat = input('Сыграете ещё раз? y (да) или n (нет) ')
+    while repeat != 'y' and repeat != 'n':
+        print('Я вас не понял. Повторите, пожалуйста')
+        print()
+        repeat = input('Сыграете ещё раз? y (да) или n (нет) ')
+    print()
 
 print('Спасибо, что играли в числовую угадайку. Еще увидимся...')
