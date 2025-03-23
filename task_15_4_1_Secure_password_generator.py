@@ -10,14 +10,25 @@ def generate_password(length, chars):
         password += chars[s]
     return password
 
+def get_int_number(text):
+    while True:
+        s = input(text)
+        if s.isdigit() and int(s) > 0:
+            return int(s)
+        else:
+            print('ОШИБКА!! Нужно ввести целое положительное число')
+            print()
+
+
+
 digits = '0123456789'
 lowercase_letters = 'abcdefghijklmnopqrstuvwxyz'
 uppercase_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 ambiguous_chars = 'il1Lo0O'
 punctuation = '!#$%&*+-=?@^_.'
 
-quantity_password = int(input('Сколько паролей сгенерировать? '))
-len_password = int(input('Длину одного пароля? '))
+quantity_password = get_int_number('Сколько паролей сгенерировать? ')
+len_password = get_int_number('Какова длина одного пароля? ')
 
 num_password = input(f'Включать ли цифры {digits}? y(да) или n(нет) ')
 uppercase_letters_password = input(f'Включать ли прописные буквы {uppercase_letters}? y(да) или n(нет) ')
@@ -42,5 +53,6 @@ if ambiguous_chars_password == answer:
             chars_without_ambiguous += el
     chars = chars_without_ambiguous
 
+print()
 for i in range(quantity_password):
     print(generate_password(len_password, chars))
