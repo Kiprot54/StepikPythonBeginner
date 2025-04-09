@@ -115,10 +115,17 @@ def play(word):
         is_word = True
 
     if is_word:
-        pass
+        if s in guessed_words:
+            print('Ты уже назвал это слово')
     else:
-        if s not in word:
+        if s in guessed_letters:
             print('Ты уже называл эту букву')
+        elif s not in word:
+            print('Такой буквы нет')
+            guessed_letters.append(s)
+            tries -= 1
+        else:
+            guessed_letters.append(s)
 
 
 
