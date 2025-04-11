@@ -128,35 +128,58 @@ def play(word):
     print('Давайте играть в угадайку слов!')
     print(display_hangman(tries))
     print(word_completion)
+    while tries > 0 or not guessed:
+        while True:
+            s = input('Введи букву или слово: ').strip().upper()
+            if len(s) == 0:
+                print('Строка не должна быть пустой')
+                print()
+            elif not s.isalpha():
+                print('Нужно ввести букву или слово')
+                print()
+            else:
+                break
+        print()
 
-    while True:
-        s = input('Введи букву или слово: ').strip()
-        if len(s) == 0:
-            print('Строка не должна быть пустой')
-            print()
-        elif not s.isalpha():
-            print('Нужно ввести букву или слово')
-            print()
+        is_word = False
+        if len(s) != 1:
+            is_word = True
+
+        if is_word:
+            if s in guessed_words:
+                print('Ты уже называл это слово')
+            elif s != word:
+                print('Ты назвал неправильное слово')
+                guessed_words.append(s)
+                tries -= 1
+            else:
+                guessed = True
+                word_completion = word
         else:
-            break
-    print()
-
-    is_word = False
-    if len(s) != 1:
-        is_word = True
-
-    if is_word:
-        if s in guessed_words:
-            print('Ты уже назвал это слово')
+            if s in guessed_letters:
+                print('Ты уже называл эту букву')
+            elif s not in word:
+                print('Такой буквы в слове нет')
+                guessed_letters.append(s)
+                tries -= 1
+            else:
+                guessed_letters.append(s)
+                new_completion = ''
+                for i in range(len(word)):
+                    if word[i] in guessed_letters:
+                        new_completion += word[i]
+                    else:
+                        new_completion += '_'
+                word_completion = new_completion
+                if '_' not in word_completion:
+                    guessed = True
+        print(display_hangman(tries))
+        print(word_completion)
+        print()
+    if guessed:
+        print('Поздравляем, вы угадали слово! Вы победили!')
     else:
-        if s in guessed_letters:
-            print('Ты уже называл эту букву')
-        elif s not in word:
-            print('Такой буквы нет')
-            guessed_letters.append(s)
-            tries -= 1
-        else:
-            guessed_letters.append(s)
+        print(f'Вы проиграли. Загаданное слово: {word}')
 
 
-
+print(play(get_word()))
