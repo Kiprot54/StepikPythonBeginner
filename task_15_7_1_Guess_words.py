@@ -38,12 +38,14 @@ word_list = ['город', 'машина', 'столик', 'книга', 'соб
              'переход', 'вкладка', 'элемент', 'таблица', 'порядок', 'номер', 'профиль', 'редактор', 'база', 'архив',
              'событие', 'режим', 'устройство', 'настройка', 'фильтр', 'контакт', 'модуль', 'запрос', 'система', 'кнопка']
 
+# Берём случайное слово из word_list
 def get_word():
     word_list_len = len(word_list)
     random_num = random.randint(0, word_list_len)
     random_word = word_list[random_num]
     return random_word.upper()
 
+# Рисуем виселицу
 def display_hangman(tries):
     stages = [  # финальное состояние: голова, торс, обе руки, обе ноги
         '''
@@ -118,16 +120,19 @@ def display_hangman(tries):
     ]
     return stages[tries]
 
+# Основные действия
 def play(word):
-    word_completion = '_' * len(word)
-    guessed = False
-    guessed_letters = []
-    guessed_words = []
-    tries = 6
+    word_completion = '_' * len(word)   # строка, содержащая символы _ на каждую букву задуманного слова
+    guessed = False                     # сигнальная метка
+    guessed_letters = []                # список уже названных букв
+    guessed_words = []                  # список уже названных слов
+    tries = 6                           # количество попыток
 
     print('Давайте играть в угадайку слов!')
     print(display_hangman(tries))
     print(word_completion)
+
+    # пока не нарисуется вся виселица или пользователь не отгадает слово
     while tries > 0 or not guessed:
         while True:
             s = input('Введи букву или слово: ').strip().upper()
@@ -145,37 +150,45 @@ def play(word):
         if len(s) != 1:
             is_word = True
 
-        if is_word:
-            if s in guessed_words:
+        if is_word: # Если пользователь ввёл слово
+            if s in guessed_words:  # Если пользователь уже вводил такое слово раньше
                 print('Ты уже называл это слово')
-            elif s != word:
+            elif s != word: # Если пользователь ввёл неправильное слово
                 print('Ты назвал неправильное слово')
                 guessed_words.append(s)
                 tries -= 1
-            else:
-                guessed = True
+            else:   # Если пользователь ввёл правильное слово
                 word_completion = word
-        else:
-            if s in guessed_letters:
+                guessed = True
+        else:   # Если пользователь ввёл букву
+            if s in guessed_letters:    # Если пользователь вводил уже такую букву раньше
                 print('Ты уже называл эту букву')
-            elif s not in word:
+            elif s not in word: # Если такой буквы в слове нет
                 print('Такой буквы в слове нет')
-                guessed_letters.append(s)
+                guessed_letters.append(s)   # Запоминаем букву как уже введённую
                 tries -= 1
-            else:
-                guessed_letters.append(s)
+            else:   # Если такая буква есть в слове
+                guessed_letters.append(s)   # Запоминаем букву как уже введённую
                 new_completion = ''
+
+                # Заменяем _ на правильно введённые буквы
                 for i in range(len(word)):
                     if word[i] in guessed_letters:
                         new_completion += word[i]
                     else:
                         new_completion += '_'
                 word_completion = new_completion
-                if '_' not in word_completion:
+
+                if '_' not in word_completion:  # Если пользователь угадал слово
                     guessed = True
+
+        # Если пользователь угадал слово, виселицу показывать не нужно.
+        # Если виселица нарисована полностью, слово показывать не нужно.
+        # Если слово не угадано и виселица не нарисована, показывать и виселицу, и неполное слово.
         print(display_hangman(tries))
         print(word_completion)
         print()
+
     if guessed:
         print('Поздравляем, вы угадали слово! Вы победили!')
     else:
