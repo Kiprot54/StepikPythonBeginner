@@ -41,7 +41,7 @@ word_list = ['город', 'машина', 'столик', 'книга', 'соб
 # Берём случайное слово из word_list
 def get_word():
     word_list_len = len(word_list)
-    random_num = random.randint(0, word_list_len)
+    random_num = random.randint(0, word_list_len - 1)
     random_word = word_list[random_num]
     return random_word.upper()
 
@@ -55,7 +55,7 @@ def display_hangman(tries):
            |     \\|/
            |      |
            |     / \\
-           -
+           ---------
         ''',
         # голова, торс, обе руки, одна нога
         '''
@@ -65,7 +65,7 @@ def display_hangman(tries):
            |     \\|/
            |      |
            |     / 
-           -
+           ---------
         ''',
         # голова, торс, обе руки
         '''
@@ -75,7 +75,7 @@ def display_hangman(tries):
            |     \\|/
            |      |
            |      
-           -
+           ---------
         ''',
         # голова, торс и одна рука
         '''
@@ -85,7 +85,7 @@ def display_hangman(tries):
            |     \\|
            |      |
            |     
-           -
+           ---------
         ''',
         # голова и торс
         '''
@@ -95,7 +95,7 @@ def display_hangman(tries):
            |      |
            |      |
            |     
-           -
+           ---------
         ''',
         # голова
         '''
@@ -105,7 +105,7 @@ def display_hangman(tries):
            |    
            |      
            |     
-           -
+           ---------
         ''',
         # начальное состояние
         '''
@@ -115,7 +115,7 @@ def display_hangman(tries):
            |    
            |      
            |     
-           -
+           ---------
         '''
     ]
     return stages[tries]
@@ -133,7 +133,7 @@ def play(word):
     print(word_completion)
 
     # пока не нарисуется вся виселица или пользователь не отгадает слово
-    while tries > 0 or not guessed:
+    while tries > 0 and not guessed:
         while True:
             s = input('Введи букву или слово: ').strip().upper()
             if len(s) == 0:
@@ -185,14 +185,22 @@ def play(word):
         # Если пользователь угадал слово, виселицу показывать не нужно.
         # Если виселица нарисована полностью, слово показывать не нужно.
         # Если слово не угадано и виселица не нарисована, показывать и виселицу, и неполное слово.
-        print(display_hangman(tries))
-        print(word_completion)
+        if not guessed:
+            print(display_hangman(tries))
+        if tries != 0:
+            print(word_completion)
         print()
 
     if guessed:
         print('Поздравляем, вы угадали слово! Вы победили!')
     else:
         print(f'Вы проиграли. Загаданное слово: {word}')
+    print()
 
-
-print(play(get_word()))
+while True:
+    play(get_word())
+    again = input('Хочешь сыграть ещё раз в угадайку слов? y(да) или n(нет)')
+    print()
+    if again != 'y':
+        print('Спасибо что поиграл в "Угадайка слов"! Ещё увидимся!')
+        break
