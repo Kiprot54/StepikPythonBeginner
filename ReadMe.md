@@ -478,5 +478,5 @@
 
 | <!-- -->                                       | <!-- -->                                           | <!-- -->                                              |
 |------------------------------------------------|----------------------------------------------------|-------------------------------------------------------|
-| [**t1.** Rectangle](problems/t1.Rectangle.md) | [**t2.** Right triangle](problems/t2.Rectangle.md) | [**t3.** Three squares](problems/t3.Three_squares.md) |
+| [**t1.** Rectangle](problems/t1.Rectangle.md) | [**t2.** Right triangle](problems/t2.Right_triangle.md) | [**t3.** Three squares](problems/t3.Three_squares.md) |
 
