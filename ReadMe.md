@@ -476,7 +476,8 @@
 
 ## Задачи с turtle
 
-| <!-- -->                                       | <!-- -->                                           | <!-- -->                                              |
-|------------------------------------------------|----------------------------------------------------|-------------------------------------------------------|
-| [**t1.** Rectangle](problems/t1.Rectangle.md) | [**t2.** Right triangle](problems/t2.Right_triangle.md) | [**t3.** Three squares](problems/t3.Three_squares.md) |
+| <!-- -->                                             | <!-- -->                                                | <!-- -->                                              |
+|------------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------|
+| [**t1.** Rectangle](problems/t1.Rectangle.md)        | [**t2.** Right triangle](problems/t2.Right_triangle.md) | [**t3.** Three squares](problems/t3.Three_squares.md) |
+| [**t4.** Many squares](problems/t4.Many_squares.md) | [**t5.** Right triangle](problems/t5.Right_hexagon.md)  | [**t6.** Honeycombs](problems/t6.Honeycombs.md)       |
 
