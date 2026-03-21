@@ -476,10 +476,11 @@
 
 ## Задачи с turtle
 
-| <!-- -->                                              | <!-- -->                                                  | <!-- -->                                              |
-|-------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------|
-| [**t1.** Rectangle](problems/t1.Rectangle.md)         | [**t2.** Right triangle](problems/t2.Right_triangle.md)   | [**t3.** Three squares](problems/t3.Three_squares.md) |
-| [**t4.** Many squares](problems/t4.Many_squares.md)   | [**t5.** Right hexagon](problems/t5.Right_hexagon.md)     | [**t6.** Honeycombs](problems/t6.Honeycombs.md)       |
-| [**t7.** Right polygon](problems/t7.Right_polygon.md) | [**t8.** Many honeycombs](problems/t8.Many_honeycombs.md) | [**t9.** Rhomb](problems/t9.Rhomb.md)                 |
-| [**t10.** Snowflake](problems/t10.Snowflake.md)       | [**t11.** Star rays](problems/t11.Star_rays.md)           |                                                       |
+| <!-- -->                                               | <!-- -->                                                  | <!-- -->                                              |
+|--------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------|
+| [**t1.** Rectangle](problems/t1.Rectangle.md)          | [**t2.** Right triangle](problems/t2.Right_triangle.md)   | [**t3.** Three squares](problems/t3.Three_squares.md) |
+| [**t4.** Many squares](problems/t4.Many_squares.md)    | [**t5.** Right hexagon](problems/t5.Right_hexagon.md)     | [**t6.** Honeycombs](problems/t6.Honeycombs.md)       |
+| [**t7.** Right polygon](problems/t7.Right_polygon.md)  | [**t8.** Many honeycombs](problems/t8.Many_honeycombs.md) | [**t9.** Rhomb](problems/t9.Rhomb.md)                 |
+| [**t10.** Snowflake](problems/t10.Snowflake.md)        | [**t11.** Star rays](problems/t11.Star_rays.md)           | [**t12.** Squares](problems/t12.Squares.md)           |
+| [**t13.** Crooked spiral](problems/t13.Crooked_spiral) |                                                           |                                                       |
 

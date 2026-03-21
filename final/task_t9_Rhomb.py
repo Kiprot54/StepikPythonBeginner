@@ -8,5 +8,5 @@ def rhomb(side, angle):
         t.left(180 - angle)
 
 t.speed(0)
-rhomb(100, 90)
+rhomb(100, 120)
 t.done()
