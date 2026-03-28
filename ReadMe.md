@@ -476,11 +476,13 @@
 
 ## Задачи с turtle
 
-| <!-- -->                                               | <!-- -->                                                  | <!-- -->                                              |
-|--------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------|
-| [**t1.** Rectangle](problems/t1.Rectangle.md)          | [**t2.** Right triangle](problems/t2.Right_triangle.md)   | [**t3.** Three squares](problems/t3.Three_squares.md) |
-| [**t4.** Many squares](problems/t4.Many_squares.md)    | [**t5.** Right hexagon](problems/t5.Right_hexagon.md)     | [**t6.** Honeycombs](problems/t6.Honeycombs.md)       |
-| [**t7.** Right polygon](problems/t7.Right_polygon.md)  | [**t8.** Many honeycombs](problems/t8.Many_honeycombs.md) | [**t9.** Rhomb](problems/t9.Rhomb.md)                 |
-| [**t10.** Snowflake](problems/t10.Snowflake.md)        | [**t11.** Star rays](problems/t11.Star_rays.md)           | [**t12.** Squares](problems/t12.Squares.md)           |
-| [**t13.** Crooked spiral](problems/t13.Crooked_spiral) |                                                           |                                                       |
+| <!-- -->                                                  | <!-- -->                                                              | <!-- -->                                                  |
+|-----------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------|
+| [**t1.** Rectangle](problems/t1.Rectangle.md)             | [**t2.** Right triangle](problems/t2.Right_triangle.md)               | [**t3.** Three squares](problems/t3.Three_squares.md)     |
+| [**t4.** Many squares](problems/t4.Many_squares.md)       | [**t5.** Right hexagon](problems/t5.Right_hexagon.md)                 | [**t6.** Honeycombs](problems/t6.Honeycombs.md)           |
+| [**t7.** Right polygon](problems/t7.Right_polygon.md)     | [**t8.** Many honeycombs](problems/t8.Many_honeycombs.md)             | [**t9.** Rhomb](problems/t9.Rhomb.md)                     |
+| [**t10.** Snowflake](problems/t10.Snowflake.md)           | [**t11.** Star rays](problems/t11.Star_rays.md)                       | [**t12.** Squares](problems/t12.Squares.md)               |
+| [**t13.** Crooked spiral](problems/t13.Crooked_spiral.md) | [**t14.** Dotted line](problems/t14.Dotted_line.md)                   | [**t15.** Dotted Polygon](problems/t15.Dotted_polygon.md) |
+| [**t16.** Dotted web](problems/t16.Dotted_web.md)         | [**t17.** Turtles circle](problems/t17.Turtles_circle.md)             | [**t18.** Watch dial](problems/t18.Watch_dial.md)         |
+| [**t19.** Turtle spiral](problems/t19.Turtle_spiral.md)   | [**t20.** Multi-colored spiral](problems/t20.Multi_colored_spiral.md) | [**t21.** Colored_rays](problems/t21.Colored_rays.md)     |
 
