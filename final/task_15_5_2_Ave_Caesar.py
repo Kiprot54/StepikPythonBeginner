@@ -1,5 +1,3 @@
-from json.decoder import WHITESPACE
-
 print('Аве, Цезарь')
 print()
 
