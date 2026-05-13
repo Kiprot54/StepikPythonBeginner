@@ -488,4 +488,4 @@
 | [**t16.** Dotted web](problems/t16.Dotted_web.md)                         | [**t17.** Turtles circle](problems/t17.Turtles_circle.md)             | [**t18.** Watch dial](problems/t18.Watch_dial.md)         |
 | [**t19.** Turtle spiral](problems/t19.Turtle_spiral.md)                   | [**t20.** Multi-colored spiral](problems/t20.Multi_colored_spiral.md) | [**t21.** Colored_rays](problems/t21.Colored_rays.md)     |
 | [**t22.** Olympic rings](problems/t22.Olympic_rings.md)                   | [**t23.** Bear](problems/t23.Bear.md)                                 | [**t24.** Snowflakes](problems/t24.Snowflakes.md)         |
-| [**t25.** Circle without circle()](problems/t25.Circle_without_circle.md) | [**t23.** Bear](problems/t23.Bear.md)                                 | [**t24.** Snowflakes](problems/t24.Snowflakes.md)         |
+| [**t25.** Circle without circle()](problems/t25.Circle_without_circle.md) | [**t26.** More squares](problems/t26.More_squares.md)                 | [**t27.** Web](problems/t27.Web.md)                       |
