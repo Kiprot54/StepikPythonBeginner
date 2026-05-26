@@ -1,11 +1,13 @@
 import turtle as t
+from turtle_functions import right_triangle, run_turtle
+from functions import get_int
 
-def right_triangle(side, rotate_angle):
-    angle = 60
+@run_turtle
+def right_triangle_angle(side, rotate_angle):
     t.left(rotate_angle)
-    for _ in range(3):
-        t.forward(side)
-        t.left(180 - angle)
+    right_triangle(side)
 
-right_triangle(100, 30)
-t.exitonclick()
+side = get_int('Введи длину стороны правильного треугольника: ')
+angle = get_int('Введи угол поворота: ')
+
+right_triangle_angle(side, angle)

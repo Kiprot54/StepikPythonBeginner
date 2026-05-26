@@ -1,6 +1,11 @@
-import turtle as t
+from turtle_functions import rectangle, run_turtle
+from functions import get_int
 
-from turtle_functions import rectangle
+@run_turtle
+def run_rectangle(width, height):
+    rectangle(width, height)
 
-rectangle(250, 5)
-t.exitonclick()
+width = get_int('Введи ширину прямоугольника: ')
+height = get_int('Введи длину прямоугольника: ')
+
+run_rectangle(width, height)
