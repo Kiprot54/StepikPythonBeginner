@@ -4,6 +4,7 @@ def run_turtle(func):
     def wrapper(*args, **kwargs):
         t.speed(0)
         func(*args, **kwargs)
+        t.hideturtle()
         t.done()
     return wrapper
 
@@ -14,7 +15,8 @@ def rectangle(width, height):
         t.forward(height)
         t.left(90)
 
-def right_triangle(side):
-    for _ in range(3):
+def right_polygon(n, side):
+    angle = 360 / n
+    for _ in range(n):
         t.forward(side)
-        t.left(120)
+        t.left(angle)

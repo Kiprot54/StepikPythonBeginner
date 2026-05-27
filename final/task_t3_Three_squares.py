@@ -1,12 +1,16 @@
 import turtle as t
-from turtle_functions import rectangle
+from turtle_functions import right_polygon, run_turtle
+from functions import get_float
 
+
+@run_turtle
 def three_squares(side, angle):
     t.left((90 - 2*angle) / 2)
     for _ in range(3):
-        rectangle(side, side)
+        right_polygon(4, side)
         t.left(angle)
 
+side = get_float('Введи длину стороны квадрата: ')
+angle = get_float('Введи угол поворота: ')
 
-three_squares(100, 450)
-t.exitonclick()
+three_squares(side, angle)

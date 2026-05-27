@@ -1,13 +1,13 @@
 import turtle as t
-from turtle_functions import right_triangle, run_turtle
-from functions import get_int
+from turtle_functions import right_polygon, run_turtle
+from functions import get_float
 
 @run_turtle
 def right_triangle_angle(side, rotate_angle):
     t.left(rotate_angle)
-    right_triangle(side)
+    right_polygon(3, side)
 
-side = get_int('Введи длину стороны правильного треугольника: ')
-angle = get_int('Введи угол поворота: ')
+side = get_float('Введи длину стороны правильного треугольника: ')
+angle = get_float('Введи угол поворота: ')
 
 right_triangle_angle(side, angle)

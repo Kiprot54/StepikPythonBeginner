@@ -1,14 +1,11 @@
 import turtle as t
 
-def hexagon(side):
-    hexagon_angles = (6 - 2) * 180
-    hexagon_angle = hexagon_angles / 6
-    angle = 180 - hexagon_angle
-    for i in range(6):
-        t.forward(side)
-        t.left(angle)
+from functions import get_float
+from turtle_functions import run_turtle, right_polygon
 
-t.hideturtle()
-t.speed(0)
-hexagon(100)
-t.done()
+@run_turtle
+def hexagon(side):
+    right_polygon(6, side)
+
+side = get_float('Введи длину стороны правильного шестиугольника: ')
+hexagon(side)
