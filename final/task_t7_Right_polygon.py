@@ -1,16 +1,15 @@
 import turtle as t
 
-def right_polygon(n, side):
-    angles_polygon = (n - 2) * 180
-    angle_polygon = angles_polygon / n
-    angle = 180 - angle_polygon
-    for i in range(n):
-        t.forward(side)
-        t.left(angle)
+from functions import get_float, get_int
+from turtle_functions import run_turtle, right_polygon
 
+@run_turtle
+def run(n, side):
+    right_polygon(n, side)
+
+n = get_int('Введи количество углов: ')
+side = get_float('Введи длину стороны многоугольника: ')
 t.penup()
-t.goto(0,-200)
+t.goto(0, -20)
 t.pendown()
-right_polygon(30, 30)
-t.speed(0)
-t.done()
+run(n, side)

@@ -1,18 +1,15 @@
 import turtle as t
+from functions import get_float, get_int
+from turtle_functions import  run_turtle, rhomb
 
-def rhomb(side, angle):
-    for _ in range(2):
-        t.forward(side)
-        t.right(angle)
-        t.forward(side)
-        t.right(180 - angle)
-
+@run_turtle
 def snowflake(n, side, angle):
     t.left(angle / 2)
     for _ in range(n):
         rhomb(side, angle)
         t.right(360 / n)
 
-t.speed(0)
-snowflake(12, 100, 0)
-t.done()
+n = get_int('Введи количество ромбов: ')
+side = get_float('Введи длину стороны ромба: ')
+angle = get_float('Введи один из углов ромба: ')
+snowflake(n, side, angle)

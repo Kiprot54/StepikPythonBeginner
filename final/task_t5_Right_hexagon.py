@@ -1,5 +1,3 @@
-import turtle as t
-
 from functions import get_float
 from turtle_functions import run_turtle, right_polygon
 

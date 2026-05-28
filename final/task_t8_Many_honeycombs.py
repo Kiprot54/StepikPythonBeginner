@@ -1,12 +1,7 @@
 import turtle as t
 
-def hexagon(side):
-    hexagon_angles = (6 - 2) * 180
-    hexagon_angle = hexagon_angles / 6
-    angle = 180 - hexagon_angle
-    for i in range(6):
-        t.forward(side)
-        t.left(angle)
+from functions import get_int, get_float
+from turtle_functions import run_turtle, right_polygon
 
 def honeycomb_row(n, side):
     hexagon_angles = (6 - 2) * 180
@@ -15,7 +10,7 @@ def honeycomb_row(n, side):
 
     for i in range(n):
         t.pendown()
-        hexagon(side)
+        right_polygon(6, side)
         if i != n - 1:
             if i % 2 == 0:
                 t.penup()
@@ -52,11 +47,10 @@ def step_up(side):
     t.forward(side)
     t.left(angle)
 
-
 def honeycomb_row_left(n, side):
     for i in range(n):
         t.pendown()
-        hexagon(side)
+        right_polygon(6, side)
         if i != n - 1:
             if i % 2 == 0:
                 if n % 2 != 0:
@@ -68,7 +62,7 @@ def honeycomb_row_left(n, side):
                     step_up(side)
                 else:
                     step_down(side)
-
+@run_turtle
 def honeycomb(n, m, side):
     hexagon_angles = (6 - 2) * 180
     hexagon_angle = hexagon_angles / 6
@@ -114,8 +108,10 @@ def honeycomb(n, m, side):
 #         t.left(angle)
 #         t.pendown()
 
-t.speed(0)
+n = get_int('Введи количество сот в одном ряду: ')
+m = get_int('Введи количество рядов: ')
+side = get_float('Введи длину стороны одной соты: ')
 t.penup()
 t.goto(-200, 200)
-honeycomb(8, 7, 50)
-t.done()
+t.pendown()
+honeycomb(n, m, side)
