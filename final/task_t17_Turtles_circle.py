@@ -1,19 +1,17 @@
 import turtle as t
 
-def turtle_line(side):
-    t.penup()
-    t.forward(side)
-    t.stamp()
-    t.backward(side)
+from functions import get_int, get_float
+from turtle_functions import run_turtle, line
 
-
+@run_turtle
 def turtle_circle(n, side):
+    t.penup()
     t.shape('turtle')
     t.stamp()
     for i in range(n):
-        turtle_line(side)
+        line(side, True)
         t.left(360 / n)
 
-t.speed(0)
-turtle_circle(12, 200)
-t.done()
+n = get_int('Введи количество черепашек: ')
+side = get_float('Введи расстояние от центра: ')
+turtle_circle(n, side)

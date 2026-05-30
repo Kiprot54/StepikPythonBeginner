@@ -1,5 +1,10 @@
 import turtle as t
 
+from functions import get_int, get_float
+from turtle_functions import run_turtle
+
+
+@run_turtle
 def draw_polygon(n, side, dot_size):
     angle_polygon = 180 * (n - 2)
     angle = angle_polygon / n
@@ -10,13 +15,8 @@ def draw_polygon(n, side, dot_size):
         t.forward(side)
         t.left(180 - angle)
 
-def dotted_polygon():
-    n = int(input("Введи количество сторон многоугольника: "))
-    side = int(input("Введи длину стороны многоугольника: "))
-    dot_size = int(input("Введи размер точки: "))
-    draw_polygon(n, side, dot_size)
 
-
-t.speed(0)
-dotted_polygon()
-t.done()
+n = get_int("Введи количество сторон многоугольника: ")
+side = get_float("Введи длину стороны многоугольника: ")
+dot_size = get_float("Введи размер точки: ")
+draw_polygon(n, side, dot_size)

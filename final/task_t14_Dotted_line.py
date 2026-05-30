@@ -1,5 +1,10 @@
 import turtle as t
 
+from functions import get_int, get_float
+from turtle_functions import run_turtle
+
+
+@run_turtle
 def dotline(n, size, step):
     t.penup()
     t.pensize(size/2)
@@ -7,5 +12,11 @@ def dotline(n, size, step):
         t.dot()
         t.forward(size + step)
 
-dotline(10, 30, 10)
-t.done()
+
+n = get_int("Введи количество точек в линии: ")
+size = get_float("Введи размер точек: ")
+step = get_float("Введи расстояние между точками: ")
+t.penup()
+t.goto(-200, 0)
+t.pendown()
+dotline(n, size, step)

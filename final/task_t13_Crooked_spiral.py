@@ -10,6 +10,7 @@ def lines(n, step):
         t.forward(side)
         t.left(90)
         side += step
-n = get_int('Введи количество узоров: ')
-step = get_float('Введи на сколько узор будет увеличиваться: ')
+
+n = get_int('Введи количество линий узора: ')
+step = get_float('Введи, на сколько узор будет увеличиваться: ')
 lines(n, step)

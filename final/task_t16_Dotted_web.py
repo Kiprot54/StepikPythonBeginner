@@ -1,18 +1,18 @@
 import turtle as t
 
-def line(side):
-    t.forward(side)
-    t.shape('triangle')
-    t.stamp()
-    t.backward(side)
+from functions import get_int, get_float
+from turtle_functions import run_turtle, line
 
+
+@run_turtle
 def web(n, size, side):
     t.pensize(size)
     t.dot()
+    t.shape('triangle')
     for i in range(n):
-        line(side)
+        line(side, True)
         t.left(360 / n)
-
-
-web(8, 20, 100)
-t.done()
+n = get_int('Введи количество лучей паутины: ')
+size = get_float('Введи толщину луча паутины: ')
+side = get_float('Введи длину луча паутины: ')
+web(n, size, side)

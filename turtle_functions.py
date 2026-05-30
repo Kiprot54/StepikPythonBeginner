@@ -28,3 +28,9 @@ def rhomb(side, angle):
         t.left(angle)
         t.forward(side)
         t.left(180 - angle)
+
+def line(side, is_stamp=False):
+    t.forward(side)
+    if is_stamp:
+        t.stamp()
+    t.backward(side)
