@@ -34,3 +34,16 @@ def line(side, is_stamp=False):
     if is_stamp:
         t.stamp()
     t.backward(side)
+
+def get_shape(target):
+    shape_list = ['turtle', 'arrow', 'triangle']
+    while True:
+        try:
+            shape = input(f'Введи рисунок {target} (arrow, turtle, triangle): ')
+            if shape not in shape_list:
+                raise ValueError('Shape не из списка')
+            return shape
+        except ValueError:
+            print('Нужно ввести рисунок из списка')
+        except IndexError:
+            print('Пустая строка')
