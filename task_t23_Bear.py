@@ -1,12 +1,7 @@
 import turtle as t
 
 from functions import get_int, get_float
-from turtle_functions import run_turtle
-
-def go_to(x, y):
-    t.penup()
-    t.goto(x, y)
-    t.pendown()
+from turtle_functions import run_turtle, go_to
 
 @run_turtle
 def bear(r):

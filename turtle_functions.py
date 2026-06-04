@@ -47,3 +47,8 @@ def get_shape(target):
             print('Нужно ввести рисунок из списка')
         except IndexError:
             print('Пустая строка')
+
+def go_to(x, y):
+    t.penup()
+    t.goto(x, y)
+    t.pendown()
