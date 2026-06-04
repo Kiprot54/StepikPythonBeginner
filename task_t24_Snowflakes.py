@@ -46,26 +46,14 @@ def snowflakes(n, colors):
         t.color(colors[i])
         size = sizes[i] / 4
         go_to(coords[i][0] - 400, coords[i][1] - 400)
-        print(coords[i])
-        print(f'Size: {size}')
+        # print(coords[i])
+        # print(f'Size: {size}')
         snowflake(size)
 
 def main():
     n = get_int('Введи количество снежинок: ')
     background = get_color('Введи цвет фона в формате HEX: ')
-    # colors = get_colors(n)
-    colors = [
-        "red",
-        "blue",
-        "green",
-        "yellow",
-        "orange",
-        "purple",
-        "pink",
-        "brown",
-        "gray",
-        "turquoise"
-    ]
+    colors = get_colors(n)
     t.bgcolor(background)
     snowflakes(n, colors)
 
