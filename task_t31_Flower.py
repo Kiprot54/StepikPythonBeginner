@@ -1,7 +1,7 @@
 import turtle as t
 
-from functions import get_int
-from turtle_functions import run_turtle
+from lib.functions import get_int
+from lib.turtle_functions import run_turtle
 
 def circles_up_down(r):
 

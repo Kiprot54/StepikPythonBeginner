@@ -1,5 +1,5 @@
-from functions import get_float
-from turtle_functions import  run_turtle, rhomb
+from lib.functions import get_float
+from lib.turtle_functions import  run_turtle, rhomb
 
 @run_turtle
 def run(side, angle):

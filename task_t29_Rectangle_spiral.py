@@ -1,7 +1,7 @@
 import turtle as t
 
-from functions import get_int, get_float
-from turtle_functions import run_turtle
+from lib.functions import get_int, get_float
+from lib.turtle_functions import run_turtle
 
 
 @run_turtle

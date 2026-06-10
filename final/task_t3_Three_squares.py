@@ -1,6 +1,6 @@
 import turtle as t
-from turtle_functions import right_polygon, run_turtle
-from functions import get_float
+from lib.turtle_functions import right_polygon, run_turtle
+from lib.functions import get_float
 
 
 @run_turtle

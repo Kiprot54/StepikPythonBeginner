@@ -1,4 +1,4 @@
-import ifnumber
+from lib import ifnumber
 
 print('Merge lists 2')
 print()

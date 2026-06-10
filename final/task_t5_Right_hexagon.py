@@ -1,5 +1,5 @@
-from functions import get_float
-from turtle_functions import run_turtle, right_polygon
+from lib.functions import get_float
+from lib.turtle_functions import run_turtle, right_polygon
 
 @run_turtle
 def hexagon(side):

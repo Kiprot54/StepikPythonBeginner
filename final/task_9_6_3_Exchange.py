@@ -1,4 +1,5 @@
-import ifnumber
+from lib import ifnumber
+
 print('Курсы валют')
 print()
 while True:

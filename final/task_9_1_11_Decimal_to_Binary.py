@@ -1,4 +1,4 @@
-import ifnumber
+from lib import ifnumber
 
 print('Decimal to Binary')
 print()

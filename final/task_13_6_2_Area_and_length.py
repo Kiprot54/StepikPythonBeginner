@@ -1,5 +1,5 @@
 from math import pi
-import ifnumber
+from lib import ifnumber
 
 print('Площадь и длина')
 print()

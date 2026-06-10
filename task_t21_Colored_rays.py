@@ -1,6 +1,6 @@
 import turtle as t
-from turtle_functions import run_turtle
-from functions import get_color, get_float, get_int
+from lib.turtle_functions import run_turtle
+from lib.functions import get_color, get_float, get_int
 
 @run_turtle
 def colored_rays(params: dict):

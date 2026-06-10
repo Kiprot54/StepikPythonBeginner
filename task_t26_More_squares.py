@@ -1,7 +1,5 @@
-import turtle as t
-
-from functions import get_int
-from turtle_functions import right_polygon, run_turtle, go_to
+from lib.functions import get_int
+from lib.turtle_functions import right_polygon, run_turtle, go_to
 
 
 @run_turtle

@@ -1,7 +1,7 @@
 import turtle as t
 
-from functions import get_color
-from turtle_functions import run_turtle
+from lib.functions import get_color
+from lib.turtle_functions import run_turtle
 
 def get_colors(n):
     # colors = ['cyan', 'black', 'red', 'yellow', 'green']

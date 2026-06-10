@@ -1,6 +1,6 @@
 import turtle as t
-from turtle_functions import run_turtle, right_polygon
-from functions import get_int, get_float
+from lib.turtle_functions import run_turtle, right_polygon
+from lib.functions import get_int, get_float
 
 def small_square(side):
     small_side = side / 2

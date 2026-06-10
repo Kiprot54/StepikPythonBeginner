@@ -1,7 +1,7 @@
 import turtle as t
 
-from functions import get_int, get_float
-from turtle_functions import run_turtle, right_polygon
+from lib.functions import get_int, get_float
+from lib.turtle_functions import run_turtle, right_polygon
 
 def honeycomb_row(n, side):
     hexagon_angles = (6 - 2) * 180

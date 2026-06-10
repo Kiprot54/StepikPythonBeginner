@@ -1,4 +1,4 @@
-import ifnumber
+from lib import ifnumber
 
 print('Повторяй за мной 1')
 print()

@@ -1,7 +1,7 @@
 import turtle as t
 
-from functions import get_float, get_color, get_time
-from turtle_functions import run_turtle, get_shape
+from lib.functions import get_float, get_color, get_time
+from lib.turtle_functions import run_turtle, get_shape
 
 
 def turtle_line(side):

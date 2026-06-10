@@ -1,5 +1,5 @@
 from math import sqrt
-import ifnumber
+from lib import ifnumber
 
 print('Расстояние между точками')
 print()

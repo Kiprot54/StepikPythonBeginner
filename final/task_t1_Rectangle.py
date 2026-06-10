@@ -1,5 +1,5 @@
-from turtle_functions import rectangle, run_turtle
-from functions import get_float
+from lib.turtle_functions import rectangle, run_turtle
+from lib.functions import get_float
 
 
 @run_turtle

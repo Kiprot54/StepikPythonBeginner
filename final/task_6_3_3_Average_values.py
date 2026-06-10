@@ -1,4 +1,4 @@
-import ifnumber
+from lib import ifnumber
 from math import sqrt
 
 print('Средние значения')

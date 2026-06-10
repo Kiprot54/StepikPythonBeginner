@@ -1,7 +1,7 @@
 import turtle as t
 
-from turtle_functions import run_turtle, get_shape
-from functions import get_color, get_int
+from lib.turtle_functions import run_turtle, get_shape
+from lib.functions import get_color, get_int
 def run():
     arrow = get_shape('стрелки')
     bg_color = get_color('Введи цвет фона: ')

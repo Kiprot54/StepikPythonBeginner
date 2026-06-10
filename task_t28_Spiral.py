@@ -1,8 +1,8 @@
 import turtle as t
 from math import cos, sin, pi
 
-from functions import get_float
-from turtle_functions import run_turtle
+from lib.functions import get_float
+from lib.turtle_functions import run_turtle
 
 @run_turtle
 def spiral(n: float, b: float):

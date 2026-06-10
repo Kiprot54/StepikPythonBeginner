@@ -1,6 +1,6 @@
 import turtle as t
-from functions import get_float, get_int
-from turtle_functions import  run_turtle, rhomb
+from lib.functions import get_float, get_int
+from lib.turtle_functions import  run_turtle, rhomb
 
 @run_turtle
 def snowflake(n, side, angle):

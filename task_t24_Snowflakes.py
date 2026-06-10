@@ -1,7 +1,7 @@
 import turtle as t
 from random import uniform as r
-from functions import get_color, get_int
-from turtle_functions import run_turtle, line, go_to
+from lib.functions import get_color, get_int
+from lib.turtle_functions import run_turtle, line, go_to
 
 
 def get_colors(n):

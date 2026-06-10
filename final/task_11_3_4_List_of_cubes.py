@@ -1,4 +1,4 @@
-import ifnumber
+from lib import ifnumber
 
 print('Список кубов')
 print()
