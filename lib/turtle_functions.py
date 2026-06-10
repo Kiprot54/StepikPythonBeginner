@@ -9,33 +9,33 @@ def run_turtle(func):
 
     return wrapper
 
-def rectangle(width, height):
+def rectangle(width: float | int, height: float | int) -> None:
     for _ in range(2):
         t.forward(width)
         t.left(90)
         t.forward(height)
         t.left(90)
 
-def right_polygon(n, side):
+def right_polygon(n: int, side: float | int) -> None:
     angle = 360 / n
     for _ in range(n):
         t.forward(side)
         t.left(angle)
 
-def rhomb(side, angle):
+def rhomb(side: float | int, angle: float | int) -> None:
     for _ in range(2):
         t.forward(side)
         t.left(angle)
         t.forward(side)
         t.left(180 - angle)
 
-def line(side, is_stamp=False):
+def line(side: float | int, is_stamp: bool=False) -> None:
     t.forward(side)
     if is_stamp:
         t.stamp()
     t.backward(side)
 
-def get_shape(target):
+def get_shape(target: str) -> str | None:
     shape_list = ['turtle', 'arrow', 'triangle']
     while True:
         try:
@@ -48,7 +48,7 @@ def get_shape(target):
         except IndexError:
             print('Пустая строка')
 
-def go_to(x, y):
+def go_to(x: float | int, y: float | int) -> None:
     t.penup()
     t.goto(x, y)
     t.pendown()

@@ -1,4 +1,4 @@
-def get_int(text, is_negative=False):
+def get_int(text: str, is_negative: bool=False) -> int | None:
     while True:
         try:
             n = int(input(text))
@@ -12,7 +12,7 @@ def get_int(text, is_negative=False):
 
         return n
 
-def get_float(text, is_negative=False):
+def get_float(text: str, is_negative: bool=False) -> float | None:
     while True:
         try:
             n = float(input(f'{text}'))
@@ -26,7 +26,7 @@ def get_float(text, is_negative=False):
 
         return n
 
-def get_color(text):
+def get_color(text: str) -> str | None:
     hex_color = '0123456789abcdef'
     while True:
         try:
@@ -44,7 +44,7 @@ def get_color(text):
         except IndexError:
             print('Пустая строка')
 
-def get_time(start, end):
+def get_time(start: int, end: int) -> int | None:
     while True:
         try:
             time = get_int(f'Введи время на часах от {start} до {end}: ')
