@@ -491,5 +491,5 @@
 | [**t25.** Circle without circle()](problems/t25.Circle_without_circle.md) | [**t26.** More squares](problems/t26.More_squares.md)                 | [**t27.** Web](problems/t27.Web.md)                           |
 | [**t28.** Spiral](problems/t28.Spiral.md)                                 | [**t29.** Rectangle spiral](problems/t29.Rectangle_spiral.md)         | [**t30.** Regular polygons](problems/t30.Regular_polygons.md) |
 | [**t31.** Flower](problems/t31.Flower.md)                                 | [**t32.** Butterfly](problems/t32.Butterfly.md)                       | [**t33.** Spring](problems/t33.Spring.md)                     |
-| [**t34.** Smiley](problems/t34.Smiley.md)                                 | [**t35.** Stars](problems/t35.Stars.md)                               |                                                               |
+| [**t34.** Smiley](problems/t34.Smiley.md)                                 | [**t35.** Stars](problems/t35.Stars.md)                               | [**t36.** House](problems/t36.House.md)                       |
 
