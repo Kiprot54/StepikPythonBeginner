@@ -493,4 +493,5 @@
 | [**t31.** Flower](problems/t31.Flower.md)                                 | [**t32.** Butterfly](problems/t32.Butterfly.md)                       | [**t33.** Spring](problems/t33.Spring.md)                     |
 | [**t34.** Smiley](problems/t34.Smiley.md)                                 | [**t35.** Stars](problems/t35.Stars.md)                               | [**t36.** House](problems/t36.House.md)                       |
 | [**t37.** Traffic light](problems/t37.Traffic_light.md)                   | [**t38.** Illuzion](problems/t38.Illuzion.md)                         | [**t39.** Rainbow](problems/t39.Rainbow.md)                   |
+| [**t40.** Сrescent](problems/t40.Сrescent.md)                             | [**t41.** Different moon](problems/t41.Different_moon.md)             | [**t42.** Stars](problems/t42.Stars.md)                       |
 
