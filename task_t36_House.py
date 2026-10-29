@@ -1,10 +1,11 @@
 import turtle as t
 
+from lib.functions import get_float
 from lib.turtle_functions import run_turtle
 
 
 @run_turtle
-def draw_house(size=200):
+def draw_house(size):
     square = t.Turtle()
     square.fillcolor("cyan")
     square.begin_fill()
@@ -28,7 +29,8 @@ def draw_house(size=200):
 
 
 def main():
+    size = get_float('Введи размер домика: ')
     t.hideturtle()
-    draw_house()
+    draw_house(size)
 
 main()
